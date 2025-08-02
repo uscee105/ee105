@@ -17,8 +17,8 @@ title: EE 105
 tagline: Introduction to Electrical Engineering
 description: Course website for EE 105
 author: Yasser Khan
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://ee105.org' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '/ee105' # the subpath of your site, e.g. /blog
+url: 'https://uscee105.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
