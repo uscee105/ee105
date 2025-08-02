@@ -16,18 +16,17 @@ description: >-
 
 ---
 
-## About
+## Course Overview
 
-This is the homepage for the class
-
-## Lecture
-
-Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Vulputate dignissim suspendisse in est ante in. Massa vitae tortor condimentum lacinia quis vel. Gravida neque convallis a cras semper auctor. Pellentesque eu tincidunt tortor aliquam nulla. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Sit amet purus gravida quis blandit turpis cursus in. Porttitor leo a diam sollicitudin tempor. Vel facilisis volutpat est velit egestas dui id ornare. Cum sociis natoque penatibus et magnis. Tristique magna sit amet purus gravida. Nibh sit amet commodo nulla facilisi nullam vehicula. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Id semper risus in hendrerit gravida. Sit amet justo donec enim diam vulputate ut pharetra sit. Vitae justo eget magna fermentum. Tellus in metus vulputate eu. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Etiam erat velit scelerisque in dictum non consectetur a erat. Pellentesque eu tincidunt tortor aliquam nulla.
+This introductory course offers a broad overview of electronic systems, integrating both hardware and software perspectives. Students will explore the fundamental building blocks of electronics, including basic circuits and key components such as resistors, capacitors, inductors, diodes, transistors, optoelectronic devices, and sensors. A central feature of the course is the hands-on design, construction, and testing of an optical biosensor that synthesizes concepts learned throughout the semester. Students will also be introduced to foundational topics in signals and systems, as well as neural networks, culminating in the implementation of a simple image classification system using embedded machine learning. Another major focus is on communication systems, particularly free-space optical communication, where students will build and experiment with paired light emitters and detectors. Hands-on learning is supported by a custom demonstration board, which includes modules for circuits, devices, system integration, and AI/ML-based image processing. In summary, this course provides an engaging introduction to electrical engineering, emphasizing experiential learning through the development of intelligent hardware and software systems.
 
 ## Resources
 
-Lacus viverra vitae congue eu. Suspendisse in est ante in nibh mauris cursus mattis. Nisl vel pretium lectus quam id leo in. Euismod lacinia at quis risus sed vulputate odio. Non enim praesent elementum facilisis. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Id interdum velit laoreet id donec ultrices tincidunt arcu. Urna molestie at elementum eu facilisis sed odio. Auctor urna nunc id cursus metus aliquam eleifend. Volutpat commodo sed egestas egestas fringilla phasellus. Libero nunc consequat interdum varius sit amet mattis. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Tortor vitae purus faucibus ornare suspendisse. Auctor elit sed vulputate mi.
+There is no textbook for the course, however, required readings, viewings, and other course resources are available via web links on this syllabus/website, posts on Brightspace, and through email. Brightspace and the course website will be used for general announcements, for posting of course documents and information. 
 
 ## Assignments
 
-Vehicula ipsum a arcu cursus vitae congue. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Risus sed vulputate odio ut enim blandit. Aliquam id diam maecenas ultricies mi eget. Id consectetur purus ut faucibus pulvinar elementum integer enim neque. Eget mi proin sed libero enim sed faucibus. Sem integer vitae justo eget magna fermentum iaculis. In mollis nunc sed id semper risus in. Sit amet risus nullam eget felis eget. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. At varius vel pharetra vel turpis nunc eget. Scelerisque purus semper eget duis at tellus.
+Final exam 40%
+Midterm exam 30%
+Homeworks 20%
+Final project 10%
