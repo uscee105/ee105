@@ -7,19 +7,20 @@ Nov 11
 
 Nov 13
 : [Communications 1]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-2-system-design.pdf)
-  : [LED PD combo](#)
+  : [**Lab**{: .label .label-purple } LED/PD combo](#)
 
 Nov 18
 : [Communications 2]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
-  : [Opto comm](#)
+  : [**Lab**{: .label .label-purple } Optical comm](#)
 
 Nov 20
 : [Communications 3]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
-  : [Noise](#)
+  : [**Lab**{: .label .label-purple } Noise](#)
 
 Nov 25
 : [Communications 4]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
-  : [Problems](#)
+  : [**Tutorial**{: .label .label-black} Comm problems](#)
+
 : **HW 5 released**{: .label .label-green }
 : **HW 4 due**{: .label .label-red }
 

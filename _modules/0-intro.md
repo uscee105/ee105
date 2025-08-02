@@ -7,8 +7,8 @@ Aug 26
   : [Handout the boards](#)
 
 Aug 28
-: [Introduction to EE 105]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-2-system-design.pdf)
-  : [Show demo of the board](#)
+: [Introduction to Electronic Systems]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-2-system-design.pdf)
+  : **Lab**{: .label .label-purple } [Show demo of the board](#)
 
 Sep 02
 : **Lab**{: .label .label-purple } [Arduino Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-3-arduino-installation.pdf)
