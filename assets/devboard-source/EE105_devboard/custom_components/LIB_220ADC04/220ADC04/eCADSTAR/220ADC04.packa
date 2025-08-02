@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "220ADC04"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-05-22-11:09:00)
+    (mountForm default
+        (footprintRef "220ADC04")
+        (spec "System")
+    )
+)

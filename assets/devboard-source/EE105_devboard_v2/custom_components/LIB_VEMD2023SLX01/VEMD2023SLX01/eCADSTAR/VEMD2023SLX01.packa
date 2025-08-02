@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "VEMD2023SLX01"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-12-13-17:40:09)
+    (mountForm default
+        (footprintRef "VEMD2023SLX01")
+        (spec "System")
+    )
+)

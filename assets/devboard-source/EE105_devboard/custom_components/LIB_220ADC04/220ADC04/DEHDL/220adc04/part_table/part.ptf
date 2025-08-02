@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '220ADC04'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "CTS", "220ADC04" (!) = "", "220ADC04", "Other", "774-220ADC04", "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/220ADC04?qs=DRP5hA1CHArLHqDAv1i%2FqA%3D%3D", "Coded Rotary Switches 4 position thru hole Knurled", "https://componentsearchengine.com/Datasheets/1/220ADC04.pdf", "6.95 mm"
+END_PART
+
+END.

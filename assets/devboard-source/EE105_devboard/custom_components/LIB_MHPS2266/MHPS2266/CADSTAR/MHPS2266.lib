@@ -1,0 +1,16 @@
+.MHPS2266 :1 ;APEM - MHPS2266 - \u94A5\u5319\u5F00\u5173, DPDT, 100mA, 30VDC, PCB
+DIPS450W80P200L600H1050Q6N
+*STM S
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6"
+*MXP 6
+*DFN MHPS2266
+~!Mouser Part Number (642-MHPS2266)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Apem/MHPS2266?qs=%2Fs1LKTamv0yOhWIQlUyKbQ%3D%3D)
+~!Manufacturer_Name (Apem)
+~!Manufacturer_Part_Number (MHPS2266)
+~!Link Datasheet (-)
+~!Height (10.5mm)
+~!3D_Model (MHPS2266)
+MHPS2266
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

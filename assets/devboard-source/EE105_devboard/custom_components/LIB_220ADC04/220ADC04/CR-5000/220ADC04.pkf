@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "220ADC04"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "220ADC04")
+        (spec "default")
+    )
+)

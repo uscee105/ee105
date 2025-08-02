@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "DIPS450W80P200L600H1050Q6N"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "DIPS450W80P200L600H1050Q6N")
+        (spec "default")
+    )
+)

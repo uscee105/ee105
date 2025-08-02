@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_17051544"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-28-06:05:13)
+    (utime 2023-05-24-15:06:15)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "CSL0416WBCW1")
+)
+
+
+(pinAssign "ECS_17051544"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-28-06:05:13)
+    (utime 2023-05-24-15:06:15)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_17051544")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CSL0416WBCW1")
+)
+
+
+(part "CSL0416WBCW1"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-03-28-06:05:13)
+    (utime 2023-05-24-15:06:15)
+    (packageRef "CSL0416WBCW1")
+    (pinAssignRef "ECS_17051544")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "LED")
+    (property "description" "Standard LEDs - SMD SIDE VIEW WHITE LED")
+    (property "Mouser_Part_Number" "755-CSL0416WBCW1")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/CSL0416WBCW1?qs=tlsG%2FOw5FFjou2oZ%2Fx04KA%3D%3D")
+    (property "Manufacturer_Name" "ROHM Semiconductor")
+    (property "Manufacturer_Part_Number" "CSL0416WBCW1")
+    (property "Datasheet_Link" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/csl0416wbcw1-e.pdf")
+    (property "compAreaTopHeight" 0.9)
+)
+
+

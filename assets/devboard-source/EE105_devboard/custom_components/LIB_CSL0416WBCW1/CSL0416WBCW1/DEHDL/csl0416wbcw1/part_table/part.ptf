@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CSL0416WBCW1'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ROHM Semiconductor", "CSL0416WBCW1" (!) = "", "CSL0416WBCW1", "Other", "755-CSL0416WBCW1", "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/CSL0416WBCW1?qs=tlsG%2FOw5FFjou2oZ%2Fx04KA%3D%3D", "Standard LEDs - SMD SIDE VIEW WHITE LED", "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/csl0416wbcw1-e.pdf", "0.9 mm"
+END_PART
+
+END.

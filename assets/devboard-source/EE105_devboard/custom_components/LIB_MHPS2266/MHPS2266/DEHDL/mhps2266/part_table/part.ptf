@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MHPS2266'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Apem", "MHPS2266" (!) = "", "DIPS450W80P200L600H1050Q6N", "Dual-In-Line Sockets", "642-MHPS2266", "https://www.mouser.co.uk/ProductDetail/Apem/MHPS2266?qs=%2Fs1LKTamv0yOhWIQlUyKbQ%3D%3D", "APEM - MHPS2266 - \u94A5\u5319\u5F00\u5173, DPDT, 100mA, 30VDC, PCB", "", "10.5 mm"
+END_PART
+
+END.

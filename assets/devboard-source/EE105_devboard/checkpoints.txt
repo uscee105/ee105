@@ -1,0 +1,19 @@
+Things to ask professor:
+- Resistor values of the uneven resistor network
+- No analog read with for uneven resistor network?
+- Female headers for the voltage divider
+- Powe On/Off different modules?
+- Toggle between different application in a module (for example SW10:Toggle between voltage divider and network, sw11: toggle between diode and nmos)
+
+Checkpoints:
+- Check the PPG module by adafruit if it has any supporting circuit on top of the IC
+- Check the DAC module like above
+- Check if op-amp need any additional circuit
+- Figure out the sense resistor value (Two resistors in module 2 and one resistor in module 3)
+- Verify PPG circuit (VLED+ resistor)
+- PPG sensor RLED and IRLED driver
+- Add tp to the ground in module 1
+- Toggle switch for modules not within the modules
+- Using transimpidence amp (Try both)
+- Use multiple channel output
+- For Module 3 select LED and photodiode with dip package

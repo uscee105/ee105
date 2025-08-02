@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "CSL0416WBCW1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "CSL0416WBCW1")
+        (spec "default")
+    )
+)

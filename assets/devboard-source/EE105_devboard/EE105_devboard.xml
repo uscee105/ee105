@@ -1,0 +1,2745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Academics\USC\EE105\EE105_devboard\EE105_devboard.kicad_sch</source>
+    <date>13-06-2024 11:44:08</date>
+    <tool>Eeschema 7.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Module 1</title>
+        <company>EE105_devboard</company>
+        <rev>rev1</rev>
+        <date/>
+        <source>EE105_devboard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ee105_devboard_module1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ee105_devboard_module2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ee105_devboard_module3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_Every</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_Every" description="Arduino Nano Every"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Arduino Nano Every"/>
+      <property name="ki_keywords" value="Arduino nano microcontroller module USB UPDI AATMega4809 AVR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efa4361a-d32e-4cac-8df9-ce1d516d6547</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b628e3ac-fb30-401b-b574-fdc4cbe60da2</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62de1e24-bcf9-4cf0-9b8a-a1b63848d503</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b04b28a0-9537-479b-ab8f-df7d28c91e87</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>PWR</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6486966c-ec83-4441-a8b3-85351b5b1114</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89eb3460-b0ae-4dd6-8de4-5bf99b53fe32</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30a03cfd-efa5-4c31-96d5-642ed68527ac</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8d61e66-5a1f-4e9d-ac80-788a2861cb56</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12d3a987-9c94-4c1a-8782-16b61effb049</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>camera_connector</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x10_Odd_Even" description="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1780589b-f13d-4db4-9a7e-dfff0e77680a</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec580cdf-c353-4fac-a996-20398ff9779f</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b289a920-51cb-43ff-ac32-100e41de2de8</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6fac0e4a-79a6-40fb-916f-8297f778586b</tstamps>
+    </comp>
+    <comp ref="S10">
+      <value>MHPS2266</value>
+      <footprint>custom_footprints:DIPS450W80P200L600H1050Q6N</footprint>
+      <fields>
+        <field name="Height">10.5</field>
+        <field name="Manufacturer_Name">Apem</field>
+        <field name="Manufacturer_Part_Number">MHPS2266</field>
+        <field name="Mouser Part Number">642-MHPS2266</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Apem/MHPS2266?qs=%2Fs1LKTamv0yOhWIQlUyKbQ%3D%3D</field>
+      </fields>
+      <libsource lib="MHPS2266" part="MHPS2266" description="APEM - MHPS2266 - \u94A5\u5319\u5F00\u5173, DPDT, 100mA, 30VDC, PCB"/>
+      <property name="Height" value="10.5"/>
+      <property name="Mouser Part Number" value="642-MHPS2266"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Apem/MHPS2266?qs=%2Fs1LKTamv0yOhWIQlUyKbQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Apem"/>
+      <property name="Manufacturer_Part_Number" value="MHPS2266"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="APEM - MHPS2266 - \u94A5\u5319\u5F00\u5173, DPDT, 100mA, 30VDC, PCB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>778971be-6866-4531-83c1-8c70dbf5d3b5</tstamps>
+    </comp>
+    <comp ref="SW10">
+      <value>pwr_select</value>
+      <footprint>custom_footprints:OS103011MA7QP1</footprint>
+      <datasheet>https://www.ckswitches.com/media/1428/os.pdf</datasheet>
+      <fields>
+        <field name="Height">4.7</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">OS103011MA7QP1</field>
+        <field name="Mouser Part Number">611-OS103011MA7QP1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CK/OS103011MA7QP1?qs=WtljUlYws5SZzmleoPXX2w%3D%3D</field>
+      </fields>
+      <libsource lib="OS103011MA7QP1" part="OS103011MA7QP1" description="Switch Slide ON ON ON SP3T Side Slide 0.1A 12VDC 10000Cycles PC Pins Bracket Mount/Through Hole Bulk"/>
+      <property name="Height" value="4.7"/>
+      <property name="Mouser Part Number" value="611-OS103011MA7QP1"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/CK/OS103011MA7QP1?qs=WtljUlYws5SZzmleoPXX2w%3D%3D"/>
+      <property name="Manufacturer_Name" value="C &amp; K COMPONENTS"/>
+      <property name="Manufacturer_Part_Number" value="OS103011MA7QP1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="Switch Slide ON ON ON SP3T Side Slide 0.1A 12VDC 10000Cycles PC Pins Bracket Mount/Through Hole Bulk"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e720fa0-2fd4-4b0f-a0aa-14b66376e0e8</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>AD5593R</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf</datasheet>
+      <libsource lib="Analog" part="AD5593R" description="8-channel 12bits configurable ADC/DAC/GPIO Internal Reference, I2C interface Integrated temperature sensor,Single Supply, TSSOP-16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="EE105_devboard.kicad_sch"/>
+      <property name="ki_description" value="8-channel 12bits configurable ADC/DAC/GPIO Internal Reference, I2C interface Integrated temperature sensor,Single Supply, TSSOP-16"/>
+      <property name="ki_keywords" value="8channel 12bit ADC DAC GPIO I2C Temperature"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4cb1e01-8457-441b-9764-191e310a9628</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>m1_pwr</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>3b7d3fbd-6577-4a41-b85b-f41b3d62f902</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>m1_status</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>b228374a-1c20-49df-a368-b311807a8090</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x01_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>99d146ad-a6dd-4fcb-83bb-4ab00690bb02</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>ba82e14a-cbbc-4358-a51c-186bc35e2bf6</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x01_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>c3a6b422-60ab-495e-936f-34a6429e8ccc</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x01_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>b7bb32df-3b03-4db6-b637-be9e7ca0c634</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>6351c845-0e9f-43a6-b682-b229dd9ab67b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>467a696b-7a95-4a93-bebc-d867bb98a34f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>50</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>a8881007-0f38-4e9d-9704-b03a4b97982b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>50</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>350304e2-f231-4c66-af6e-b882a7da1216</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>50</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>2fa95f42-c927-48f8-9c6a-75e8bb50fe5a</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>54633332-b1d2-4469-9e46-f3fb30e2462c</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>28966c25-2cce-474d-8883-15972bc76bb0</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>50</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>39a0c47b-a83e-4a40-b11a-ed58c54ba62d</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>50</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>292ab98b-04c3-4e0a-be0d-9759fd365451</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>50</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>7a729539-218c-4a99-b576-9052a5f13723</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>3567f0e9-2135-4846-bd65-11f2c61227a0</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>d8fb692d-2cdd-45d9-b96a-cfdc54c57227</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>eec6f0cf-a87d-475b-a983-a7eacb967e60</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>ec2f5ef1-cba7-4f99-86ed-3c3819b20b05</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>dcce062d-2e65-4ca4-9be6-d3d0ad2ac6c2</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>6fbc3e10-c1ac-4f44-964d-cdaed92b5e24</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>a8f5472f-9a8b-4c1e-93ae-a91b4d8f2014</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>0378bf3a-d3fb-4f8d-8951-b2915ef8924e</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>7567dc12-8a46-4be3-adfa-beabed8b6f1f</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>be15fb9d-85d3-4266-a90d-4ebc730bf345</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>54bd767a-a2f5-4c45-a6e5-cb5de2f3764b</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>7ff779a6-a3e7-497c-b5b1-030af60df31b</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>3832ac08-4183-423d-a507-a2963049807e</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>07c111bb-d97f-48bf-beca-c91183840ee1</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>ab12d5e7-7d49-4fcf-a724-fb0c8f32ba13</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>a80c19e3-2f8f-41ae-b632-23ef7d2adc1d</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>4-1437565-0</value>
+      <footprint>custom_footprints:SW_4-1437565-0</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="Comment">4-1437565-0</field>
+        <field name="Description">
+Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT
+</field>
+        <field name="MANUFACTURER">TE CONNECTIVITY</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="MP">FSM4JRT</field>
+        <field name="PARTREV">P6</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="FSM4JRT" part="4-1437565-0" description=""/>
+      <property name="Comment" value="4-1437565-0"/>
+      <property name="MF" value="TE Connectivity"/>
+      <property name="Description" value="&#xA;Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="P6"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"/>
+      <property name="MP" value="FSM4JRT"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="TE CONNECTIVITY"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>29e3602f-2ee1-4ea2-9d3b-af7413036dfd</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>4-1437565-0</value>
+      <footprint>custom_footprints:SW_4-1437565-0</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="Comment">4-1437565-0</field>
+        <field name="Description">
+Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT
+</field>
+        <field name="MANUFACTURER">TE CONNECTIVITY</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="MP">FSM4JRT</field>
+        <field name="PARTREV">P6</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="FSM4JRT" part="4-1437565-0" description=""/>
+      <property name="Comment" value="4-1437565-0"/>
+      <property name="MF" value="TE Connectivity"/>
+      <property name="Description" value="&#xA;Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="P6"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"/>
+      <property name="MP" value="FSM4JRT"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="TE CONNECTIVITY"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>e4b7627a-49fe-465a-89c5-bfd46bdf1293</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>4-1437565-0</value>
+      <footprint>custom_footprints:SW_4-1437565-0</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="Comment">4-1437565-0</field>
+        <field name="Description">
+Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT
+</field>
+        <field name="MANUFACTURER">TE CONNECTIVITY</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="MP">FSM4JRT</field>
+        <field name="PARTREV">P6</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="FSM4JRT" part="4-1437565-0" description=""/>
+      <property name="Comment" value="4-1437565-0"/>
+      <property name="MF" value="TE Connectivity"/>
+      <property name="Description" value="&#xA;Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="P6"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"/>
+      <property name="MP" value="FSM4JRT"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="TE CONNECTIVITY"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>976dc9a0-253e-4e31-9d82-da5fb7f93b54</tstamps>
+    </comp>
+    <comp ref="S4">
+      <value>4-1437565-0</value>
+      <footprint>custom_footprints:SW_4-1437565-0</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="Comment">4-1437565-0</field>
+        <field name="Description">
+Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT
+</field>
+        <field name="MANUFACTURER">TE CONNECTIVITY</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="MP">FSM4JRT</field>
+        <field name="PARTREV">P6</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="FSM4JRT" part="4-1437565-0" description=""/>
+      <property name="Comment" value="4-1437565-0"/>
+      <property name="MF" value="TE Connectivity"/>
+      <property name="Description" value="&#xA;Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="P6"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"/>
+      <property name="MP" value="FSM4JRT"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="TE CONNECTIVITY"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>3a2abc8d-28d7-41c6-9982-6d0e79939562</tstamps>
+    </comp>
+    <comp ref="S5">
+      <value>4-1437565-0</value>
+      <footprint>custom_footprints:SW_4-1437565-0</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="Comment">4-1437565-0</field>
+        <field name="Description">
+Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT
+</field>
+        <field name="MANUFACTURER">TE CONNECTIVITY</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="MP">FSM4JRT</field>
+        <field name="PARTREV">P6</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="FSM4JRT" part="4-1437565-0" description=""/>
+      <property name="Comment" value="4-1437565-0"/>
+      <property name="MF" value="TE Connectivity"/>
+      <property name="Description" value="&#xA;Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="P6"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"/>
+      <property name="MP" value="FSM4JRT"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="TE CONNECTIVITY"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>14a092af-85c5-43db-adf0-94f0de464377</tstamps>
+    </comp>
+    <comp ref="S6">
+      <value>4-1437565-0</value>
+      <footprint>custom_footprints:SW_4-1437565-0</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="Comment">4-1437565-0</field>
+        <field name="Description">
+Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT
+</field>
+        <field name="MANUFACTURER">TE CONNECTIVITY</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="MP">FSM4JRT</field>
+        <field name="PARTREV">P6</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="FSM4JRT" part="4-1437565-0" description=""/>
+      <property name="Comment" value="4-1437565-0"/>
+      <property name="MF" value="TE Connectivity"/>
+      <property name="Description" value="&#xA;Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="P6"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"/>
+      <property name="MP" value="FSM4JRT"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="TE CONNECTIVITY"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>8ca610a8-f471-4514-9815-8d4bf8c3e76a</tstamps>
+    </comp>
+    <comp ref="S7">
+      <value>4-1437565-0</value>
+      <footprint>custom_footprints:SW_4-1437565-0</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="Comment">4-1437565-0</field>
+        <field name="Description">
+Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT
+</field>
+        <field name="MANUFACTURER">TE CONNECTIVITY</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="MP">FSM4JRT</field>
+        <field name="PARTREV">P6</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="FSM4JRT" part="4-1437565-0" description=""/>
+      <property name="Comment" value="4-1437565-0"/>
+      <property name="MF" value="TE Connectivity"/>
+      <property name="Description" value="&#xA;Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="P6"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"/>
+      <property name="MP" value="FSM4JRT"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="TE CONNECTIVITY"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>73d9cbe0-c3d2-4435-a02f-93ac79839eff</tstamps>
+    </comp>
+    <comp ref="S8">
+      <value>4-1437565-0</value>
+      <footprint>custom_footprints:SW_4-1437565-0</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="Comment">4-1437565-0</field>
+        <field name="Description">
+Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT
+</field>
+        <field name="MANUFACTURER">TE CONNECTIVITY</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="MP">FSM4JRT</field>
+        <field name="PARTREV">P6</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="FSM4JRT" part="4-1437565-0" description=""/>
+      <property name="Comment" value="4-1437565-0"/>
+      <property name="MF" value="TE Connectivity"/>
+      <property name="Description" value="&#xA;Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="P6"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"/>
+      <property name="MP" value="FSM4JRT"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="TE CONNECTIVITY"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>9cf512ab-6c23-4930-9396-d6d0af710039</tstamps>
+    </comp>
+    <comp ref="S9">
+      <value>4-1437565-0</value>
+      <footprint>custom_footprints:SW_4-1437565-0</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="Comment">4-1437565-0</field>
+        <field name="Description">
+Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT
+</field>
+        <field name="MANUFACTURER">TE CONNECTIVITY</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="MP">FSM4JRT</field>
+        <field name="PARTREV">P6</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="FSM4JRT" part="4-1437565-0" description=""/>
+      <property name="Comment" value="4-1437565-0"/>
+      <property name="MF" value="TE Connectivity"/>
+      <property name="Description" value="&#xA;Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="P6"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap"/>
+      <property name="MP" value="FSM4JRT"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="TE CONNECTIVITY"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>33f4df84-95c3-44cf-9349-2aaf0cdb57b8</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>5115</value>
+      <footprint>custom_footprints:5115</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda</field>
+        <field name="Description">
+Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115
+</field>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
+        <field name="MF">Keystone Electronics</field>
+        <field name="MP">5115</field>
+        <field name="PARTREV">H</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">5000</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="5115" part="5115" description=""/>
+      <property name="MF" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.57 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="H"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="5115"/>
+      <property name="Description" value="&#xA;Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115&#xA;"/>
+      <property name="MANUFACTURER" value="Keystone"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="5000"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>b0e74cbf-6b08-42a0-a6bb-208470972976</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>5115</value>
+      <footprint>custom_footprints:5115</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda</field>
+        <field name="Description">
+Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115
+</field>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
+        <field name="MF">Keystone Electronics</field>
+        <field name="MP">5115</field>
+        <field name="PARTREV">H</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">5000</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="5115" part="5115" description=""/>
+      <property name="MF" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.57 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="H"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="5115"/>
+      <property name="Description" value="&#xA;Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115&#xA;"/>
+      <property name="MANUFACTURER" value="Keystone"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="5000"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>ad13b120-19c3-4e2c-ad81-5cbbbaebda74</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>5115</value>
+      <footprint>custom_footprints:5115</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda</field>
+        <field name="Description">
+Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115
+</field>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
+        <field name="MF">Keystone Electronics</field>
+        <field name="MP">5115</field>
+        <field name="PARTREV">H</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">5000</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="5115" part="5115" description=""/>
+      <property name="MF" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.57 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="H"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="5115"/>
+      <property name="Description" value="&#xA;Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115&#xA;"/>
+      <property name="MANUFACTURER" value="Keystone"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="5000"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>a0a0fe12-7d4c-4b1b-a081-9908f0a7685b</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>5115</value>
+      <footprint>custom_footprints:5115</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda</field>
+        <field name="Description">
+Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115
+</field>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
+        <field name="MF">Keystone Electronics</field>
+        <field name="MP">5115</field>
+        <field name="PARTREV">H</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">5000</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="5115" part="5115" description=""/>
+      <property name="MF" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.57 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="H"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="5115"/>
+      <property name="Description" value="&#xA;Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115&#xA;"/>
+      <property name="MANUFACTURER" value="Keystone"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="5000"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>88a7963e-db75-4ec5-b195-a3bd2540416f</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>5115</value>
+      <footprint>custom_footprints:5115</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda</field>
+        <field name="Description">
+Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115
+</field>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
+        <field name="MF">Keystone Electronics</field>
+        <field name="MP">5115</field>
+        <field name="PARTREV">H</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">5000</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="5115" part="5115" description=""/>
+      <property name="MF" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.57 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="H"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="5115"/>
+      <property name="Description" value="&#xA;Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115&#xA;"/>
+      <property name="MANUFACTURER" value="Keystone"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="5000"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>909e05e1-f525-4c33-9880-4d7ad44b58fe</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>5115</value>
+      <footprint>custom_footprints:5115</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda</field>
+        <field name="Description">
+Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115
+</field>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
+        <field name="MF">Keystone Electronics</field>
+        <field name="MP">5115</field>
+        <field name="PARTREV">H</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">5000</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="5115" part="5115" description=""/>
+      <property name="MF" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.57 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="H"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="5115"/>
+      <property name="Description" value="&#xA;Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115&#xA;"/>
+      <property name="MANUFACTURER" value="Keystone"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="5000"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>f67ec070-5d86-4c5e-87b8-40d921e0172e</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>5115</value>
+      <footprint>custom_footprints:5115</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda</field>
+        <field name="Description">
+Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115
+</field>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
+        <field name="MF">Keystone Electronics</field>
+        <field name="MP">5115</field>
+        <field name="PARTREV">H</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">5000</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="5115" part="5115" description=""/>
+      <property name="MF" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.57 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="H"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="5115"/>
+      <property name="Description" value="&#xA;Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115&#xA;"/>
+      <property name="MANUFACTURER" value="Keystone"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="5000"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>45ba7746-b0dd-4760-ba2d-64d8b40c7d0e</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>5115</value>
+      <footprint>custom_footprints:5115</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda</field>
+        <field name="Description">
+Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115
+</field>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
+        <field name="MF">Keystone Electronics</field>
+        <field name="MP">5115</field>
+        <field name="PARTREV">H</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">5000</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="5115" part="5115" description=""/>
+      <property name="MF" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.57 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="H"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="5115"/>
+      <property name="Description" value="&#xA;Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115&#xA;"/>
+      <property name="MANUFACTURER" value="Keystone"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="5000"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>4439a9f1-811f-4bec-8b63-e4b8c80d09b6</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>5115</value>
+      <footprint>custom_footprints:5115</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda</field>
+        <field name="Description">
+Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115
+</field>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
+        <field name="MF">Keystone Electronics</field>
+        <field name="MP">5115</field>
+        <field name="PARTREV">H</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">5000</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="5115" part="5115" description=""/>
+      <property name="MF" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.57 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="H"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="5115"/>
+      <property name="Description" value="&#xA;Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115&#xA;"/>
+      <property name="MANUFACTURER" value="Keystone"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="5000"/>
+      <property name="Sheetname" value="Module 1"/>
+      <property name="Sheetfile" value="ee105_devboard_module1.kicad_sch"/>
+      <sheetpath names="/Module 1/" tstamps="/31c4a489-b99c-4257-9536-244e183372e4/"/>
+      <tstamps>b88a4e9f-3b1d-4a5a-b04e-0a16029a39b7</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>6d94087a-7eef-40e8-98d1-eb2d36e8973e</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>m2_pwr</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>e208c05d-3afd-4c48-8b2b-5a65d5c1aab9</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>m2_status</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>b80f8337-5fb1-45e2-84bd-234cb7dce735</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>TLV9102IDR</value>
+      <footprint>custom_footprints:SOIC127P600X175-8N</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/TLV9102</datasheet>
+      <fields>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TLV9102IDR</field>
+        <field name="Mouser Part Number">595-TLV9102IDR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9102IDR?qs=9r4v7xj2Lnl9%252B%2FuOU9XjTQ%3D%3D</field>
+      </fields>
+      <libsource lib="TLV9102IDR" part="TLV9102IDR" description="Dual 1MHz, 16-V rail-to-rail input/output, low-offset voltage, low-power op amp"/>
+      <property name="Height" value="1.75"/>
+      <property name="Mouser Part Number" value="595-TLV9102IDR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9102IDR?qs=9r4v7xj2Lnl9%252B%2FuOU9XjTQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TLV9102IDR"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Dual 1MHz, 16-V rail-to-rail input/output, low-offset voltage, low-power op amp"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>f1d35a23-cf24-4348-9887-081b3b936190</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>tia vs senseamp</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>a04f1dd3-0e8b-4e11-abe1-575aed6e5584</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMN3404L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds31787.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="DMN3404L" description="5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>7538e75b-463f-4844-a20a-d5d92e758856</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>DMN3404L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/ds31787.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="DMN3404L" description="5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>c1c1637a-cec9-4502-be57-6724ddd6e74c</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>0.2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>5cf14514-5104-4e97-8b04-8af08dc746db</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>0.04</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>452c9d91-948a-490d-81ea-e74f63f2e499</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>1</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>9eb5e592-303c-4168-ac40-79f652380eaa</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>e3c27412-efeb-417b-ba86-8de357f5e44b</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>59e6b458-0ce3-4cbf-83ba-fecd1f24547a</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>5d41d5e2-7bc6-430b-a6d4-2ccbc95ef96f</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>b66dd031-b8d2-4e12-b630-3e33a02fd6c1</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>INA180A1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina180.pdf</datasheet>
+      <libsource lib="Amplifier_Current" part="INA180A1" description="Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"/>
+      <property name="ki_keywords" value="current monitor shunt sensor"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>62390f51-7267-4bd1-b19b-aa821a532bc1</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>INA180A1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina180.pdf</datasheet>
+      <libsource lib="Amplifier_Current" part="INA180A1" description="Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"/>
+      <property name="Sheetname" value="Module 2"/>
+      <property name="Sheetfile" value="ee105_devboard_module2.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"/>
+      <property name="ki_keywords" value="current monitor shunt sensor"/>
+      <sheetpath names="/Module 2/" tstamps="/948de31b-d178-4727-9e02-8deb7ac6d623/"/>
+      <tstamps>1b098fd2-4db1-44a1-bf55-ceb41c073154</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>692f1f09-b9dc-4e42-90fc-a213de00120f</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>158baa5b-168f-4587-9e9e-ffe1aa5c31cf</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>c70b96e8-2d1b-4e13-964f-37fb2649b437</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>PD_LED</value>
+      <footprint>custom_footprints:CSL0416WBCW1</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>a00224b6-2c34-4387-9429-0f9e3588b119</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>VEMD2023SLX01</value>
+      <footprint>custom_footprints:XDCR_VEMD2023SLX01</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/VEMD2023SLX01/Vishay+Semiconductor+Opto+Division/view-part/?ref=eda</field>
+        <field name="Description">
+Pin Photodiode, Aec-Q101, 940nm, Smd
+</field>
+        <field name="MF">Vishay Semiconductor</field>
+        <field name="MP">VEMD2023SLX01</field>
+        <field name="PACKAGE">SMD-2 Vishay</field>
+        <field name="Package">SMD-2 Vishay Semiconductor</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=392360&amp;manufacturer=Vishay Semiconductor&amp;part_name=VEMD2023SLX01&amp;search_term=None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/VEMD2023SLX01/Vishay+Semiconductor+Opto+Division/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="VEMD2023SLX01" part="VEMD2023SLX01" description=""/>
+      <property name="MF" value="Vishay Semiconductor"/>
+      <property name="Description" value="&#xA;Pin Photodiode, Aec-Q101, 940nm, Smd&#xA;"/>
+      <property name="PACKAGE" value="SMD-2 Vishay"/>
+      <property name="Price" value="None"/>
+      <property name="Package" value="SMD-2 Vishay Semiconductor"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/VEMD2023SLX01/Vishay+Semiconductor+Opto+Division/view-part/?ref=snap"/>
+      <property name="MP" value="VEMD2023SLX01"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=392360&amp;manufacturer=Vishay Semiconductor&amp;part_name=VEMD2023SLX01&amp;search_term=None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/VEMD2023SLX01/Vishay+Semiconductor+Opto+Division/view-part/?ref=eda"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>858a6284-370c-4eef-a41d-ea80b87b9479</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>m3_pwr</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>c42e2237-9abd-47e9-a91c-57b14579ce0d</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>m3_status</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>8e4c31d0-0237-4245-8eff-e1bd4db41631</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>2e41b113-abb2-493e-a45e-b5bebab41680</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>fd40a5f0-3709-40c0-8710-2133857284cb</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>11cc79ec-d502-42f7-b70e-c9e0a289131b</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>07dc7301-d03e-4cd7-b4bd-98056d484280</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>72d092cc-3526-46b6-9287-d70cae493bd6</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>5115</value>
+      <footprint>custom_footprints:5115</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda</field>
+        <field name="Description">
+Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115
+</field>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
+        <field name="MF">Keystone Electronics</field>
+        <field name="MP">5115</field>
+        <field name="PARTREV">H</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SNAPEDA_PN">5000</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="5115" part="5115" description=""/>
+      <property name="MF" value="Keystone Electronics"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.57 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="H"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="5115"/>
+      <property name="Description" value="&#xA;Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115&#xA;"/>
+      <property name="MANUFACTURER" value="Keystone"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="SNAPEDA_PN" value="5000"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>395e97eb-b19b-4bfe-8238-56f3d4749b40</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MCP1703T-1802E/CB</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="MCP1703Ax-180xxTT" description="Low Quiescent Current LDO Regulator, 1.8V, 250mA, Vin&lt;=16V, SOT-23"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Low Quiescent Current LDO Regulator, 1.8V, 250mA, Vin&lt;=16V, SOT-23"/>
+      <property name="ki_keywords" value="REGULATOR LDO"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>f45803d6-bb36-4f89-a3e5-7bb6705b491b</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MAX30102</value>
+      <footprint>OptoDevice:Maxim_OLGA-14_3.3x5.6mm_P0.8mm</footprint>
+      <datasheet>https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf</datasheet>
+      <libsource lib="Sensor" part="MAX30102" description="Heart Rate Sensor, 14-OLGA"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Heart Rate Sensor, 14-OLGA"/>
+      <property name="ki_keywords" value="Heart Rate"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>06ad4e37-6d14-46f7-9525-4d4dbbca5be0</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>INA180A1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ina180.pdf</datasheet>
+      <libsource lib="Amplifier_Current" part="INA180A1" description="Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"/>
+      <property name="Sheetname" value="Module 3"/>
+      <property name="Sheetfile" value="ee105_devboard_module3.kicad_sch"/>
+      <property name="ki_description" value="Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5"/>
+      <property name="ki_keywords" value="current monitor shunt sensor"/>
+      <sheetpath names="/Module 3/" tstamps="/a5651fdb-5ae9-45bd-bf86-b2d7cc6320cf/"/>
+      <tstamps>66326fbc-8fb9-4165-aee9-4da0cc0a07e7</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="5115" part="5115">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">5115</field>
+        <field name="Footprint">5115:KEYSTONE_5115</field>
+        <field name="MF">Keystone Electronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.57 mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">H</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/5115/Keystone+Electronics/view-part/?ref=snap</field>
+        <field name="MP">5115</field>
+        <field name="Description">
+Test Point Miniature THM H .300 Nylon 46 Insulated Brown PhosBronze/Silver | Keystone Electronics 5115
+</field>
+        <field name="MANUFACTURER">Keystone</field>
+        <field name="Availability">In Stock</field>
+        <field name="SNAPEDA_PN">5000</field>
+      </fields>
+      <pins>
+        <pin num="TP" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Current" part="INA180A1">
+      <description>Current Sense Amplifier, 1 Circuit, Rail-to-Rail, 26V, Gain 20 V/V, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina180.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA180A1</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina180.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Analog" part="AD5593R">
+      <description>8-channel 12bits configurable ADC/DAC/GPIO Internal Reference, I2C interface Integrated temperature sensor,Single Supply, TSSOP-16</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD5593R</field>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/AD5593R.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{RESET}" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="V_{DD}" type="power_in"/>
+        <pin num="4" name="IO0" type="bidirectional"/>
+        <pin num="5" name="IO1" type="bidirectional"/>
+        <pin num="6" name="IO2" type="bidirectional"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="V_{REF}" type="passive"/>
+        <pin num="9" name="V_{LOGIC}" type="power_in"/>
+        <pin num="10" name="IO4" type="bidirectional"/>
+        <pin num="11" name="IO5" type="bidirectional"/>
+        <pin num="12" name="IO6" type="bidirectional"/>
+        <pin num="13" name="IO7" type="bidirectional"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="SDA" type="bidirectional"/>
+        <pin num="16" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Pin">
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x10_Odd_Even">
+      <description>Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x10_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FSM4JRT" part="4-1437565-0">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">4-1437565-0</field>
+        <field name="Footprint">4-1437565-0:SW_4-1437565-0</field>
+        <field name="Comment">4-1437565-0</field>
+        <field name="MF">TE Connectivity</field>
+        <field name="Description">
+Alcoswitch, Tactile switch, PCB, SPST, raised actuator, FSM4JRT | TE Connectivity FSM4JRT
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">P6</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/FSM4JRT/TE+Connectivity+ALCOSWITCH+Switches/view-part/?ref=snap</field>
+        <field name="MP">FSM4JRT</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">TE CONNECTIVITY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_Every">
+      <description>Arduino Nano Every</description>
+      <docs>https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_Every</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX1" type="bidirectional"/>
+        <pin num="2" name="RX1" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="MOSI" type="bidirectional"/>
+        <pin num="15" name="MISO" type="bidirectional"/>
+        <pin num="16" name="SCK" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="SDA/A4" type="bidirectional"/>
+        <pin num="24" name="SCL/A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="passive"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MHPS2266" part="MHPS2266">
+      <description>APEM - MHPS2266 - \u94A5\u5319\u5F00\u5173, DPDT, 100mA, 30VDC, PCB</description>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">MHPS2266</field>
+        <field name="Footprint">DIPS450W80P200L600H1050Q6N</field>
+        <field name="Height">10.5</field>
+        <field name="Mouser Part Number">642-MHPS2266</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Apem/MHPS2266?qs=%2Fs1LKTamv0yOhWIQlUyKbQ%3D%3D</field>
+        <field name="Manufacturer_Name">Apem</field>
+        <field name="Manufacturer_Part_Number">MHPS2266</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="OS103011MA7QP1" part="OS103011MA7QP1">
+      <description>Switch Slide ON ON ON SP3T Side Slide 0.1A 12VDC 10000Cycles PC Pins Bracket Mount/Through Hole Bulk</description>
+      <docs>https://www.ckswitches.com/media/1428/os.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">OS103011MA7QP1</field>
+        <field name="Footprint">OS103011MA7QP1</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/1428/os.pdf</field>
+        <field name="Height">4.7</field>
+        <field name="Mouser Part Number">611-OS103011MA7QP1</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/CK/OS103011MA7QP1?qs=WtljUlYws5SZzmleoPXX2w%3D%3D</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">OS103011MA7QP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NO" type="passive"/>
+        <pin num="2" name="COM" type="passive"/>
+        <pin num="3" name="NC_1" type="passive"/>
+        <pin num="4" name="NC_2" type="passive"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MCP1703Ax-180xxTT">
+      <description>Low Quiescent Current LDO Regulator, 1.8V, 250mA, Vin&lt;=16V, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1703Ax-180xxTT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor" part="MAX30102">
+      <description>Heart Rate Sensor, 14-OLGA</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf</docs>
+      <footprints>
+        <fp>Maxim*OLGA*3.3x5.6mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX30102</field>
+        <field name="Footprint">OptoDevice:Maxim_OLGA-14_3.3x5.6mm_P0.8mm</field>
+        <field name="Datasheet">https://datasheets.maximintegrated.com/en/ds/MAX30102.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="SDA" type="bidirectional"/>
+        <pin num="4" name="PGND" type="power_in"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="NC" type="no_connect"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="NC" type="no_connect"/>
+        <pin num="9" name="VLED+" type="power_in"/>
+        <pin num="10" name="VLED+" type="passive"/>
+        <pin num="11" name="VDD" type="power_in"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="~{INT}" type="output"/>
+        <pin num="14" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="TLV9102IDR" part="TLV9102IDR">
+      <description>Dual 1MHz, 16-V rail-to-rail input/output, low-offset voltage, low-power op amp</description>
+      <docs>http://www.ti.com/lit/gpn/TLV9102</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TLV9102IDR</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/TLV9102</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">595-TLV9102IDR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV9102IDR?qs=9r4v7xj2Lnl9%252B%2FuOU9XjTQ%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TLV9102IDR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT1" type="passive"/>
+        <pin num="2" name="IN1-" type="passive"/>
+        <pin num="3" name="IN1+" type="passive"/>
+        <pin num="4" name="V-" type="passive"/>
+        <pin num="5" name="IN2+" type="passive"/>
+        <pin num="6" name="IN2-" type="passive"/>
+        <pin num="7" name="OUT2" type="passive"/>
+        <pin num="8" name="V+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="DMN3404L">
+      <description>5.8A Id, 30V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.diodes.com/assets/Datasheets/ds31787.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMN3404L</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.diodes.com/assets/Datasheets/ds31787.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VEMD2023SLX01" part="VEMD2023SLX01">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">VEMD2023SLX01</field>
+        <field name="Footprint">VEMD2023SLX01:XDCR_VEMD2023SLX01</field>
+        <field name="MF">Vishay Semiconductor</field>
+        <field name="Description">
+Pin Photodiode, Aec-Q101, 940nm, Smd
+</field>
+        <field name="PACKAGE">SMD-2 Vishay</field>
+        <field name="Price">None</field>
+        <field name="Package">SMD-2 Vishay Semiconductor</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/VEMD2023SLX01/Vishay+Semiconductor+Opto+Division/view-part/?ref=snap</field>
+        <field name="MP">VEMD2023SLX01</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=392360&amp;manufacturer=Vishay Semiconductor&amp;part_name=VEMD2023SLX01&amp;search_term=None</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/VEMD2023SLX01/Vishay+Semiconductor+Opto+Division/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="5115">
+      <uri>D:/Academics/USC/EE105/EE105_devboard/custom_components/5115/5115.kicad_sym</uri>
+    </library>
+    <library logical="Amplifier_Current">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Amplifier_Current.kicad_sym</uri>
+    </library>
+    <library logical="Analog">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Analog.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="FSM4JRT">
+      <uri>D:/Academics/USC/EE105/EE105_devboard/custom_components/FSM4JRT/4-1437565-0.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="MHPS2266">
+      <uri>D:\Academics\USC\EE105\EE105_devboard\custom_components\LIB_MHPS2266\MHPS2266\KiCad\MHPS2266.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="OS103011MA7QP1">
+      <uri>D:/Academics/USC/EE105/EE105_devboard/custom_components/LIB_OS103011MA7QP1/OS103011MA7QP1/KiCad/OS103011MA7QP1.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Sensor">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor.kicad_sym</uri>
+    </library>
+    <library logical="TLV9102IDR">
+      <uri>D:/Academics/USC/EE105/EE105_devboard/custom_components/LIB_TLV9102IDR/TLV9102IDR/KiCad/TLV9102IDR.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="VEMD2023SLX01">
+      <uri>D:/Academics/USC/EE105/EE105_devboard/custom_components/VEMD2023SLX01/VEMD2023SLX01.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Module 1/center_node">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="S5" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="1v8_m3">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U5" pin="11" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="3" name="3v3">
+      <node ref="A1" pin="17" pinfunction="3V3" pintype="power_out"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="S10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="COM" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="V_{DD}" pintype="power_in"/>
+      <node ref="U7" pin="8" pinfunction="V_{REF}" pintype="passive"/>
+      <node ref="U7" pin="9" pinfunction="V_{LOGIC}" pintype="power_in"/>
+    </net>
+    <net code="4" name="3v3_m1">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="S1" pin="2" pintype="passive"/>
+      <node ref="SW10" pin="1" pinfunction="NO" pintype="passive"/>
+      <node ref="TP1" pin="TP" pintype="passive"/>
+    </net>
+    <net code="5" name="3v3_m2">
+      <node ref="IC1" pin="8" pinfunction="V+" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="SW10" pin="3" pinfunction="NC_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="V+" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="6" name="3v3_m3">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="D4" pin="A" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="SW10" pin="4" pinfunction="NC_2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U5" pin="10" pinfunction="VLED+" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="VLED+" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="7" name="A0_NA">
+      <node ref="A1" pin="19" pinfunction="A0" pintype="bidirectional"/>
+      <node ref="S1" pin="1" pintype="passive"/>
+      <node ref="S2" pin="1" pintype="passive"/>
+      <node ref="S3" pin="1" pintype="passive"/>
+      <node ref="S4" pin="1" pintype="passive"/>
+      <node ref="S5" pin="1" pintype="passive"/>
+      <node ref="S6" pin="1" pintype="passive"/>
+      <node ref="S7" pin="2" pintype="passive"/>
+      <node ref="S8" pin="2" pintype="passive"/>
+      <node ref="S9" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="DAC_out0">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U7" pin="4" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="DAC_out1">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="IO1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="DAC_out2">
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="DAC_out3">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="U7" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="DAC_out4">
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U7" pin="10" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="DAC_out5">
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U7" pin="11" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="DAC_out6">
+      <node ref="U7" pin="12" pinfunction="IO6" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="DAC_out7">
+      <node ref="U7" pin="13" pinfunction="IO7" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="18" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D6-A)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D7-A)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(J6-Pin_1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="S10" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(Q1-S)">
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="S2" pin="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="S3" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="S4" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="S6" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="S7" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="S8" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="TP" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="TP" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="TP" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="TP" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="TP" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(R21-Pad2)">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="TP7" pin="TP" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(R22-Pad2)">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="TP8" pin="TP" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(U5-~{INT})">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="TP10" pin="TP" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="~{INT}" pintype="output"/>
+    </net>
+    <net code="41" name="Net-(U6-+)">
+      <node ref="D4" pin="C" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="42" name="SCL">
+      <node ref="A1" pin="24" pinfunction="SCL/A5" pintype="bidirectional"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="SCL" pintype="input"/>
+      <node ref="U7" pin="16" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="43" name="SDA">
+      <node ref="A1" pin="23" pinfunction="SDA/A4" pintype="bidirectional"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U7" pin="15" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="gnd">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="passive"/>
+      <node ref="A1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="IN1+" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="V-" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="S9" pin="1" pintype="passive"/>
+      <node ref="TP9" pin="TP" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="-" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="-" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="12" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="-" pintype="input"/>
+      <node ref="U7" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="45" name="m1_status_led">
+      <node ref="A1" pin="5" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="m1_voltage_divider">
+      <node ref="A1" pin="20" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="47" name="m2_diode">
+      <node ref="A1" pin="21" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="48" name="m2_nmos">
+      <node ref="A1" pin="22" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="49" name="m2_nmos_senseamp">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="output"/>
+    </net>
+    <net code="50" name="m2_nmos_tia">
+      <node ref="IC1" pin="1" pinfunction="OUT1" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="m2_status_led">
+      <node ref="A1" pin="6" pinfunction="D3" pintype="bidirectional"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="m3_photo_diode">
+      <node ref="A1" pin="25" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="U6" pin="1" pintype="output"/>
+    </net>
+    <net code="53" name="m3_status_led">
+      <node ref="A1" pin="7" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="source">
+      <node ref="IC1" pin="2" pinfunction="IN1-" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(A1-+5V-Pad27)">
+      <node ref="A1" pin="27" pinfunction="+5V" pintype="power_out"/>
+    </net>
+    <net code="56" name="unconnected-(A1-A7-Pad26)">
+      <node ref="A1" pin="26" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="unconnected-(A1-AREF-Pad18)">
+      <node ref="A1" pin="18" pinfunction="AREF" pintype="input"/>
+    </net>
+    <net code="58" name="unconnected-(A1-D5-Pad8)">
+      <node ref="A1" pin="8" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="unconnected-(A1-D6-Pad9)">
+      <node ref="A1" pin="9" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(A1-D7-Pad10)">
+      <node ref="A1" pin="10" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(A1-D8-Pad11)">
+      <node ref="A1" pin="11" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="unconnected-(A1-D9-Pad12)">
+      <node ref="A1" pin="12" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="unconnected-(A1-D10-Pad13)">
+      <node ref="A1" pin="13" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="unconnected-(A1-MISO-Pad15)">
+      <node ref="A1" pin="15" pinfunction="MISO" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="unconnected-(A1-MOSI-Pad14)">
+      <node ref="A1" pin="14" pinfunction="MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="unconnected-(A1-RX1-Pad2)">
+      <node ref="A1" pin="2" pinfunction="RX1" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="unconnected-(A1-SCK-Pad16)">
+      <node ref="A1" pin="16" pinfunction="SCK" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="unconnected-(A1-TX1-Pad1)">
+      <node ref="A1" pin="1" pinfunction="TX1" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="unconnected-(A1-VIN-Pad30)">
+      <node ref="A1" pin="30" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="70" name="unconnected-(A1-~{RESET}-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="71" name="unconnected-(A1-~{RESET}-Pad28)">
+      <node ref="A1" pin="28" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="72" name="unconnected-(IC1-IN2+-Pad5)">
+      <node ref="IC1" pin="5" pinfunction="IN2+" pintype="passive"/>
+    </net>
+    <net code="73" name="unconnected-(IC1-IN2--Pad6)">
+      <node ref="IC1" pin="6" pinfunction="IN2-" pintype="passive"/>
+    </net>
+    <net code="74" name="unconnected-(IC1-OUT2-Pad7)">
+      <node ref="IC1" pin="7" pinfunction="OUT2" pintype="passive"/>
+    </net>
+    <net code="75" name="unconnected-(J6-Pin_5-Pad5)">
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="76" name="unconnected-(J6-Pin_6-Pad6)">
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="77" name="unconnected-(J6-Pin_7-Pad7)">
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="78" name="unconnected-(J6-Pin_8-Pad8)">
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="79" name="unconnected-(J6-Pin_9-Pad9)">
+      <node ref="J6" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="80" name="unconnected-(J6-Pin_10-Pad10)">
+      <node ref="J6" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="81" name="unconnected-(J6-Pin_11-Pad11)">
+      <node ref="J6" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="82" name="unconnected-(J6-Pin_12-Pad12)">
+      <node ref="J6" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="83" name="unconnected-(J6-Pin_13-Pad13)">
+      <node ref="J6" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="84" name="unconnected-(J6-Pin_14-Pad14)">
+      <node ref="J6" pin="14" pinfunction="Pin_14" pintype="passive"/>
+    </net>
+    <net code="85" name="unconnected-(J6-Pin_15-Pad15)">
+      <node ref="J6" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="86" name="unconnected-(J6-Pin_16-Pad16)">
+      <node ref="J6" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="87" name="unconnected-(J6-Pin_17-Pad17)">
+      <node ref="J6" pin="17" pinfunction="Pin_17" pintype="passive"/>
+    </net>
+    <net code="88" name="unconnected-(J6-Pin_18-Pad18)">
+      <node ref="J6" pin="18" pinfunction="Pin_18" pintype="passive"/>
+    </net>
+    <net code="89" name="unconnected-(J6-Pin_19-Pad19)">
+      <node ref="J6" pin="19" pinfunction="Pin_19" pintype="passive"/>
+    </net>
+    <net code="90" name="unconnected-(J6-Pin_20-Pad20)">
+      <node ref="J6" pin="20" pinfunction="Pin_20" pintype="passive"/>
+    </net>
+    <net code="91" name="unconnected-(S10-Pad1)">
+      <node ref="S10" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="92" name="unconnected-(S10-Pad4)">
+      <node ref="S10" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="93" name="unconnected-(S10-Pad5)">
+      <node ref="S10" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="94" name="unconnected-(S10-Pad6)">
+      <node ref="S10" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="95" name="unconnected-(SW10-PadMH1)">
+      <node ref="SW10" pin="MH1" pinfunction="MH1" pintype="passive"/>
+    </net>
+    <net code="96" name="unconnected-(SW10-PadMH2)">
+      <node ref="SW10" pin="MH2" pinfunction="MH2" pintype="passive"/>
+    </net>
+    <net code="97" name="unconnected-(U5-NC-Pad1)">
+      <node ref="U5" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U5-NC-Pad5)">
+      <node ref="U5" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U5-NC-Pad6)">
+      <node ref="U5" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U5-NC-Pad7)">
+      <node ref="U5" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U5-NC-Pad8)">
+      <node ref="U5" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U5-NC-Pad14)">
+      <node ref="U5" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

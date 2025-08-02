@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '5115'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Keystone Electronics", "5115" (!) = "", "5115", "Other", "534-5115", "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5115?qs=do%2F%252B0R7m72eN44oti49NVg%3D%3D", "Circuit Board Hardware - PCB Colored Test Point", "https://www.keyelco.com/product-pdf.cfm?p=1338", "4.7 mm"
+END_PART
+
+END.

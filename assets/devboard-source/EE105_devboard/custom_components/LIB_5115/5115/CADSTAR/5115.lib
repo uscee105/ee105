@@ -1,0 +1,16 @@
+.5115 :1 ;Circuit Board Hardware - PCB Colored Test Point
+"5115"
+*STM TP
+*NGS
+*PLB 1="1"
+*MXP 1
+*DFN 5115
+~!Mouser Part Number (534-5115)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5115?qs=do%2F%252B0R7m72eN44oti49NVg%3D%3D)
+~!Manufacturer_Name (Keystone Electronics)
+~!Manufacturer_Part_Number (5115)
+~!Link Datasheet (https://www.keyelco.com/product-pdf.cfm?p=1338)
+~!Height (4.7mm)
+~!3D_Model (5115)
+"5115"
+1.1!U 

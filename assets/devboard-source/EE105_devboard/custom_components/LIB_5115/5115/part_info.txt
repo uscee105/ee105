@@ -1,0 +1,9 @@
+Manufacturer=Keystone Electronics
+PartNumber=5115
+PartCategory=Test Point
+PackageCategory=Other
+PinCount=1
+Version=1.7
+Released=2023-04-13 09:10:47
+Downloaded=2024-06-11 20:49:03
+3D=Y
