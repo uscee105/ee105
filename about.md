@@ -30,3 +30,9 @@ Final exam 40%
 Midterm exam 30%
 Homeworks 20%
 Final project 10%
+
+# Weekly Schedule
+
+{% for schedule in site.schedules %}
+{{ schedule }}
+{% endfor %}
