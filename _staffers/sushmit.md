@@ -1,9 +1,9 @@
 ---
-name: Kevin Lin
-role: Instructor
+name: Sushmit Hossain
+role: Teaching Assistant
 email: me@example.com
 website: https://kevinl.info
-photo: kevin.jpg
+photo: sushmit.jpg
 meta:
   Office Hours: Somewhere on the internet
 ---
