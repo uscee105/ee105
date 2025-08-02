@@ -1,11 +1,11 @@
 ---
 name: Sushmit Hossain
 role: Teaching Assistant
-email: me@example.com
-website: https://kevinl.info
+email: hossains@usc.edu
+website: 
 photo: sushmit.jpg
 meta:
   Office Hours: Somewhere on the internet
 ---
 
-[Schedule an appointment](#){: .btn .btn-outline }
+My research is on memristors for robotic applications, nanophotonics.

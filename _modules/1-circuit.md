@@ -1,23 +1,20 @@
 ---
-title: Introduction to Java
+title: Module 1 - Circuits
 ---
 
-Sep 28
-: [Java & Git](#)
-  : [1.1](#)
+Sep 9
+: [Circuits 1]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
+  : [Probe the symmetric touchpanel, calculate in class](#)
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
+Sep 11
+: [Circuits 2]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-2-system-design.pdf)
+  : [Show the assimetry touchpanel, calculate in class](#)
 
-Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
+Sep 16
+: [Circuits 3]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
+  : [Circuit problems](#)
 
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
-
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red }
+Sep 18
+: [Circuits 4]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
+  : [Thermistor demo and lab](#)
+: **HW 1 released**{: .label .label-green}

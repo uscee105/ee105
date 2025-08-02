@@ -1,23 +1,27 @@
 ---
-title: Basic Data Structures
+title: Module 2 - Device
 ---
 
-Oct 5
-: [Linked Lists & Encapsulation](#)
-  : [3.1](#), [2.2](#), [2.3](#)
+Sep 23
+: [Device 1]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
+  : [Semicondutor problems](#)
 
-Oct 6
-: **Section**{: .label .label-purple }[Linked Lists](#)
-  : [Solution](#)
+Sep 25
+: [Device 2]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-2-system-design.pdf)
+  : [Diode analysis](#)
+
+Sep 30
+: [Device 3]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
+  : [Transistor analysis](#)
+
+Oct 2
+: [Device 4]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
+  : [Device problems](#)
+: **HW 1 due**{: .label .label-red }
+: **HW 2 released**{: .label .label-green}
 
 Oct 7
-: [Resizing Arrays](#)
-  : [2.4](#), [2.5](#)
-
-Oct 8
-: **Lab**{: .label .label-purple } [Resizing Arrays](#)
+: **MIDTERM**{: .label .label-blue }
 
 Oct 9
-: [Runtime Analysis](#)
-  : [8.1](#), [8.2](#), [8.3](#), [8.4](#)
-: **HW 2 due**{: .label .label-red }
+: **No Class Fall Recess**{: .label .label-yellow}

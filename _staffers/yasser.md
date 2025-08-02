@@ -6,4 +6,4 @@ website: https://khan.usc.edu/
 photo: yasser.jpeg
 ---
 
-I like to build stuff. 
+I like to build wearable, implantable, and ingestible electronics. 

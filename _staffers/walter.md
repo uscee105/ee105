@@ -1,8 +1,8 @@
 ---
-name: Teaching Assistant
+name: Walter Unglaub
 role: Teaching Assistant
-email: me@example.com
-website: https://kevinl.info
+email: unglaub@usc.edu
+website: 
 photo: walter.jpg
 ---
 

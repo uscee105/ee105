@@ -1,23 +1,27 @@
 ---
-title: Introduction to Java
+title: Module 5 - Communications
 ---
 
-Sep 28
-: [Java & Git](#)
-  : [1.1](#)
+Nov 11
+: **No Class - Veterans Day**{: .label .label-yellow }
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
+Nov 13
+: [Communications 1]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-2-system-design.pdf)
+  : [LED PD combo](#)
 
-Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
+Nov 18
+: [Communications 2]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
+  : [Opto comm](#)
 
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
+Nov 20
+: [Communications 3]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
+  : [Noise](#)
 
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red }
+Nov 25
+: [Communications 4]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
+  : [Problems](#)
+: **HW 5 released**{: .label .label-green }
+: **HW 4 due**{: .label .label-red }
+
+Nov 27
+: **No Class - Thanksgiving**{: .label .label-yellow }

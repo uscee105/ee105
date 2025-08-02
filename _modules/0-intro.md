@@ -1,23 +1,17 @@
 ---
-title: Introduction to Java
+title: Module 0 - Introduction to EE 105
 ---
 
-Sep 28
-: [Java & Git](#)
-  : [1.1](#)
+Aug 26
+: [Introduction to Electrical Engineering]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
+  : [Handout the boards](#)
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
+Aug 28
+: [Introduction to EE 105]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-2-system-design.pdf)
+  : [Show demo of the board](#)
 
-Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
+Sep 02
+: **Lab**{: .label .label-purple } [Arduino Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-3-arduino-installation.pdf)
 
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
-
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red }
+Sep 04
+: **Lab**{: .label .label-purple } [iPython Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-4-ece-105-python-bookcamp.ipynb)

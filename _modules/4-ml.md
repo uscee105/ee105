@@ -1,23 +1,21 @@
 ---
-title: Introduction to Java
+title: Module 4 - Machine Learning
 ---
 
-Sep 28
-: [Java & Git](#)
-  : [1.1](#)
+Oct 28
+: [Nueral network 1]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
+  : [Image processing](#)
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
+Oct 30
+: [Nueral network 2]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-2-system-design.pdf)
+  : [Ard image processing](#)
 
-Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
+Nov 4
+: [Nueral network 3]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
+  : [Problems](#)
 
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
-
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red }
+Nov 6
+: [Nueral network 4]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
+  : [Ard tinyML](#)
+: **HW 3 due**{: .label .label-red }
+: **HW 4 released**{: .label .label-green}
