@@ -31,6 +31,11 @@ Midterm exam 30%
 Homeworks 20%
 Final project 10%
 
+## Final exam 40% - comprehensive final, two pages of written notes are allowed [no printing]
+## Midterm exam 30% - covers circuits and devices, one page of written notes are allowed [no printing]
+## Homeworks 20% - five homeworks on (1) circuit, (2) device, (3) sensors, (4) neural networks, and (5) optical communications
+## Final project 10% - groups of 5 students will work on a hardware project that uses the demo board and arduino. Project ideas should be submitted to the instructor by email by Oct 23. (1) 5 min class presentation 5% (2) 2 page report, and (3) source code in a zip file 5%.  
+
 # Weekly Schedule
 
 {% for schedule in site.schedules %}

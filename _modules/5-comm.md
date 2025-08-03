@@ -11,7 +11,7 @@ Nov 13
 
 Nov 18
 : [Communications 2]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-22-quant-comm.pdf)
-  : ({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi.zip)
+  : [**Demo**{: .label .label-purple } Quantum comm]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi.zip)
 
 Nov 20
 : [Communications 3]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-23-noise.pdf)
