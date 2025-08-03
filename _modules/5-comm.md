@@ -6,20 +6,20 @@ Nov 11
 : **No Class - Veterans Day**{: .label .label-yellow }
 
 Nov 13
-: [Communications 1]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-2-system-design.pdf)
-  : [**Lab**{: .label .label-purple } LED/PD combo](#)
+: [Communications 1]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-21-opt-comm.pdf)
+  : [**Lab**{: .label .label-purple } LED/PD combo]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi.zip)
 
 Nov 18
-: [Communications 2]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
-  : [**Lab**{: .label .label-purple } Optical comm](#)
+: [Communications 2]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-22-quant-comm.pdf)
+  : ({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi.zip)
 
 Nov 20
-: [Communications 3]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
-  : [**Lab**{: .label .label-purple } Noise](#)
+: [Communications 3]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-23-noise.pdf)
+  : [**Tutorial**{: .label .label-black} Noise problems]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi.zip)
 
 Nov 25
-: [Communications 4]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-1-lecture-1-intro.pdf)
-  : [**Tutorial**{: .label .label-black} Comm problems](#)
+: [Communications 4]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecutre-24-lifi-lab.pdf)
+  : [**Lab**{: .label .label-purple } Optical comm]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi.zip)
 
 : **HW 5 released**{: .label .label-green }
 : **HW 4 due**{: .label .label-red }
