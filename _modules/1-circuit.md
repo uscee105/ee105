@@ -4,8 +4,8 @@ title: Module 1 - Circuits
 
 Sep 9
 : [Circuits 1]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-5-circuit-analysis.pdf)
-  : [**Lab**{: .label .label-purple } Symmetric touchpanel](#)
-
+  : [**Lab**{: .label .label-purple } Symmetric touchpanel]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-5-voltage-divider-notebook.ipynb)
+  
 Sep 11
 : [Circuits 2]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-6-circuit-analysis-2.pdf)
   : [**Lab**{: .label .label-purple } Asymmetric touchpanel]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-6-touch-panel-lab.pdf)
