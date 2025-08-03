@@ -7,3 +7,4 @@ Gemfile.lock
 _site/
 node_modules/
 vendor/
+assets/devboard-source/camera_code_v1/Arduino/Arduino_OV767X/Arduino_OV767X/
