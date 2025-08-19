@@ -9,4 +9,4 @@ Dec 2
 Dec 4
 : [Final project presenations](#)
   : [--](#)
-: **HW 5 due**{: .label .label-red}
+: **HW 6 due**{: .label .label-red}

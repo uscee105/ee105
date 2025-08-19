@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: USC EE 105
+title: USC EE 105 -- Fall 2025
 tagline: Introduction to Electrical Engineering
 description: Course website for EE 105
 author: Yasser Khan
@@ -29,7 +29,7 @@ heading_anchors: true
 permalink: pretty
 aux_links:
   brightspace:
-    - 'https://brightspace.usc.edu/d2l/home/114204'
+    - 'https://brightspace.usc.edu/d2l/home/226737'
 footer_content:
 
 # Collections for website data

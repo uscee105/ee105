@@ -18,11 +18,17 @@ description: >-
 
 ## Hardware setup
 
-
 ## Arduino 
-
 
 ## Running arduino code
 
+## Circuit module
 
+## Device module
+
+## Sensor module
+
+## AI/ML module
+
+## Communications module
 

@@ -17,5 +17,5 @@ Oct 21
 Oct 23
 : [Sensors 4]({{site.url}}{{site.baseurl}}/assets/module-3-sensor/mod-3-lecture-16-sensors-4.pdf)
   : [**Lab**{: .label .label-purple } Oximeter]({{site.url}}{{site.baseurl}}/assets/module-3-sensor/mod-3-oximeter-demo.zip)
-: **HW 2 due**{: .label .label-red }
-: **HW 3 released**{: .label .label-green}
+: **Final project plan due**{: .label .label-red }
+: **HW 4 released**{: .label .label-green}

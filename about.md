@@ -26,15 +26,15 @@ There is no textbook for the course, however, required readings, viewings, and o
 
 ## Assignments
 
-Final exam 40%
-Midterm exam 30%
-Homeworks 20%
-Final project 10%
+## Grading Breakdown
 
-## Final exam 40% - comprehensive final, two pages of written notes are allowed [no printing]
-## Midterm exam 30% - covers circuits and devices, one page of written notes are allowed [no printing]
-## Homeworks 20% - five homeworks on (1) circuit, (2) device, (3) sensors, (4) neural networks, and (5) optical communications
-## Final project 10% - groups of 5 students will work on a hardware project that uses the demo board and arduino. Project ideas should be submitted to the instructor by email by Oct 23. (1) 5 min class presentation 5% (2) 2 page report, and (3) source code in a zip file 5%.  
+| Component       | Weight | Details |
+|-----------------|--------|---------|
+| **Final Exam**  | 40%    | Comprehensive; two pages of handwritten notes allowed (no printing). |
+| **Midterm Exam**| 30%    | Covers circuits and devices; one page of handwritten notes allowed (no printing). |
+| **Homework**    | 20%    | Six assignments: <br>1. Arduino/Python <br>2. Circuits <br>3. Devices <br>4. Sensors <br>5. Neural Networks <br>6. Optical Communications |
+| **Final Project** | 10%  | Group project (teams of 5) using demo board and Arduino. <br>• Project ideas due by **Oct 23** via email. <br>• Deliverables: <br>&nbsp;&nbsp;1. Class presentation/2-min youtube video (5 min) – 5% <br>&nbsp;&nbsp;2. Report (2 pages) – 2.5% <br>&nbsp;&nbsp;3. Source code (zip file) – 2.5% |
+
 
 # Weekly Schedule
 

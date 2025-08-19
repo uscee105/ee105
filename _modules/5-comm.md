@@ -21,8 +21,8 @@ Nov 25
 : [Communications 4]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecutre-24-lifi-lab.pdf)
   : [**Lab**{: .label .label-purple } Optical comm]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi.zip)
 
-: **HW 5 released**{: .label .label-green }
-: **HW 4 due**{: .label .label-red }
+: **HW 6 released**{: .label .label-green }
+: **HW 5 due**{: .label .label-red }
 
 Nov 27
 : **No Class - Thanksgiving**{: .label .label-yellow }
