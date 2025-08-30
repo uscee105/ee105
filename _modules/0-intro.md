@@ -14,5 +14,5 @@ Sep 02
 : **Lab**{: .label .label-purple } [Arduino Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-lecture-3-arduino-installation.pdf)
 
 Sep 04
-: **Lab**{: .label .label-purple } [iPython Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-lecture-4-ece-105-python-bookcamp.ipynb)
+: **Lab**{: .label .label-purple } [iPython Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-bootcamp.zip)
 : **HW 1 released**{: .label .label-green}
