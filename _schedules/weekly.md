@@ -21,25 +21,23 @@ timeline:
 schedule:
   - name: Tuesday
     events:
-      - name: Office Hours
-        start: 1:00 PM
-        end: 2:00 PM
-        location: MCB 270 
       - name: Lecture
         start: 2:00 PM
         end: 3:50 PM
         location: OHE 230
-
+      - name: Office Hours
+        start: 4:00 PM
+        end: 5:00 PM
+        location: OHE 230
 
   - name: Thursday
     events:
-      - name: Office Hours
-        start: 1:00 PM
-        end: 2:00 PM
-        location: MCB 270 
       - name: Lecture
         start: 2:00 PM
         end: 3:50 PM
         location: OHE 230
-
+      - name: Office Hours
+        start: 4:00 PM
+        end: 5:00 PM
+        location: OHE 230
 ---
