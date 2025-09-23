@@ -9,7 +9,7 @@ Sep 25
 : [Device 2]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-10-devices-2.pdf)
   : [**Lab**{: .label .label-purple } Diode analysis]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-10-diode.zip)
 : **HW 2 due**{: .label .label-red }
-: **HW 3 released**{: .label .label-green}
+: **HW 3 released**{: .label .label-green}[HW 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/hw-3.pdf)
 
 Sep 30
 : [Device 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-11-devices-opto.pdf)
