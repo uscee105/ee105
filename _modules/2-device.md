@@ -16,11 +16,10 @@ Sep 30
 
 Oct 2
 : [Device 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-12-devices-opto.pdf)
-: [**Tutorial**{: .label .label-black} Device problems]({{site.url}}{{site.baseurl}}/assets/module-2-device/xx.pdf)
+: **Practice MIDTERM**{: .label .label-green}[HW 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/fall-25-practice-midterm.pdf)
 : **HW 3 due**{: .label .label-red }
 
 Oct 7
-: **Practice MIDTERM**{: .label .label-green}[HW 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/fall-25-practice-midterm.pdf)
 : **MIDTERM**{: .label .label-blue }
 
 Oct 9
