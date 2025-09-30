@@ -15,11 +15,12 @@ Sep 30
 : [**Lab**{: .label .label-purple } Transistor analysis]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-11-transistor.zip)
 
 Oct 2
-: [Device 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-11-devices-opto.pdf)
-: [**Tutorial**{: .label .label-black} Device problems]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-12-devices-opto.zip)
+: [Device 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-12-devices-opto.pdf)
+: [**Tutorial**{: .label .label-black} Device problems]({{site.url}}{{site.baseurl}}/assets/module-2-device/xx.pdf)
 : **HW 3 due**{: .label .label-red }
 
 Oct 7
+: **Practice MIDTERM**{: .label .label-green}[HW 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/fall-25-practice-midterm.pdf)
 : **MIDTERM**{: .label .label-blue }
 
 Oct 9
