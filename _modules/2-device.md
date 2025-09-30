@@ -16,7 +16,7 @@ Sep 30
 
 Oct 2
 : [Device 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-12-devices-opto.pdf)
-: **Practice MIDTERM**{: .label .label-green}[HW 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/fall-25-practice-midterm.pdf)
+: **Practice MIDTERM**{: .label .label-green}[Practice MIDTERM]({{site.url}}{{site.baseurl}}/assets/module-2-device/fall-25-practice-midterm.pdf)
 : **HW 3 due**{: .label .label-red }
 
 Oct 7
