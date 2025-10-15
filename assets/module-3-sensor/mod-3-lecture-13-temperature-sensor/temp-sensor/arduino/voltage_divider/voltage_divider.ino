@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-#define m1_vd_input  // 1. change here, m1_vd_input ? which ADC is connected to your voltage divider
+#define m1_vd_input A1 // 1. change here, m1_vd_input ? which ADC is connected to your voltage divider
 #define adc_resolution 1024
 
 bool readingEnabled = false;
@@ -23,7 +23,7 @@ void loop() {
   while(readingEnabled){
     Serial.println(analogRead(m1_vd_input));
     counter = counter + 1;
-    if(counter == ?){ // 2. change here, counter == ? for getting 10s
+    if(counter == 10000){ // 2. change here, counter == ? for getting 10s
       counter = 0;
       readingEnabled = false;
       Serial.println("Ready to enter next command");
