@@ -11,7 +11,8 @@ Oct 16
   : **Final project teaming**{: .label .label-black} Groups of 5 students
 
 Oct 21
-: [**Lab**{: .label .label-purple } Oximeter data collection and processing]({{site.url}}{{site.baseurl}}/assets/module-3-sensor/mod-3-oximeter-lab.zip)
+: [**Lab**{: .label .label-purple } Oximeter data collection and processing]({{site.url}}{{site.baseurl}}/assets/module-3-sensor/mod-3-oximeter-lab.pdf)
+: [**Lab**{: .label .label-purple } Lab files]({{site.url}}{{site.baseurl}}/assets/module-3-sensor/mod-3-oximeter-lab.zip)
 
 Oct 23
 : [Sensors 4]({{site.url}}{{site.baseurl}}/assets/module-3-sensor/mod-3-lecture-16-sensors-3.pdf)
