@@ -17,4 +17,4 @@ Oct 21
 Oct 23
 : [Sensors 4]({{site.url}}{{site.baseurl}}/assets/module-3-sensor/mod-3-lecture-16-sensors-3.pdf)
 : **Final project plan due**{: .label .label-red }
-: **HW 4 released**{: .label .label-green}
+: **HW 4 released**{: .label .label-green} ({{site.url}}{{site.baseurl}}/assets/module-3-sensor/hw-4.pdf)
