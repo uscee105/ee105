@@ -11,11 +11,11 @@ Oct 30
   : [**Lab**{: .label .label-purple } Imange/text classification]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-nn-labs.zip)
 
 Nov 4
-: [Nueral network 3]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn-b.pdf)
+: [Nueral network 3]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn.pdf)
   : [**Lab**{: .label .label-purple } Imange/text classification]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-nn-labs.zip)
 
 Nov 6
-: [Nueral network 4]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn-b.pdf)
+: [Nueral network 4]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn.pdf)
   : [**Lab**{: .label .label-purple } Imange/text classification with arduino and TinyML]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-nn-labs.zip)
 : **HW 4 due**{: .label .label-red }
-: **HW 5 released**{: .label .label-green}
+: **HW 5 released**{: .label .label-green}[HW 5]({{site.url}}{{site.baseurl}}/assets/module-4-ml/hw-5.pdf)
