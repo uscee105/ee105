@@ -7,20 +7,16 @@ Nov 11
 
 Nov 13
 : [Communications 1]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-21-opt-comm.pdf)
-  : [**Lab**{: .label .label-purple } LED/PD combo]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi.zip)
 
 Nov 18
 : [Communications 2]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-22-quant-comm.pdf)
-  : [**Demo**{: .label .label-purple } Quantum comm]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi.zip)
+  : [**Demo**{: .label .label-purple } Quantum comm]
 
 Nov 20
-: [Communications 3]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-23-noise.pdf)
-  : [**Tutorial**{: .label .label-black} Noise problems]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi.zip)
+: [**LAB**{: .label .label-black} LiFi]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi.zip)
 
 Nov 25
-: [Communications 4]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecutre-24-lifi-lab.pdf)
-  : [**Lab**{: .label .label-purple } Optical comm]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi.zip)
-
+: [Communications 4]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-23-noise.pdf)
 : **HW 6 released**{: .label .label-green }
 : **HW 5 due**{: .label .label-red }
 
