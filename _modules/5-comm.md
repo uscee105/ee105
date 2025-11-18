@@ -9,11 +9,11 @@ Nov 13
 : [Communications 1]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-21-opt-comm.pdf)
 
 Nov 18
-: [**LAB**{: .label .label-black} LiFi]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi.zip)
+: [**LAB**{: .label .label-black} LiFi]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi-v2.zip)
 
 Nov 20
-: [Communications 2]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-22-quant-comm.pdf)
-  : [**Demo**{: .label .label-purple } Sensor fusion]
+: [Communications 2]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-22-sensor-fusion.pdf)
+  : [**Demo**{: .label .label-purple} Sensor fusion]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-sensor-fusion.zip)
 
 Nov 25
 : **No Class - Thanksgiving**{: .label .label-yellow }
