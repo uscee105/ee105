@@ -30,9 +30,10 @@ There is no textbook for the course, however, required readings, viewings, and o
 
 | Component       | Weight | Details |
 |-----------------|--------|---------|
-| **Final Exam**  | 40%    | Comprehensive; two pages of handwritten notes allowed (no printing). |
+| **Final Exam**  | 30%    | Comprehensive; two pages of handwritten notes allowed (no printing). |
 | **Midterm Exam**| 30%    | Covers circuits and devices; one page of handwritten notes allowed (no printing). |
 | **Homework**    | 20%    | Six assignments: <br>1. Arduino/Python <br>2. Circuits <br>3. Devices <br>4. Sensors <br>5. Neural Networks <br>6. Optical Communications |
+| **Lab**    | 10%    | Five reports: <br>1. Circuits <br>2. Devices <br>3. Sensors <br>4. Neural Networks <br>5. Optical Communications |
 | **Final Project** | 10%  | Group project (teams of 5) using demo board and Arduino. <br>• Project ideas due by **Oct 23** via email. <br>• Deliverables: <br>&nbsp;&nbsp;1. Class presentation/2-min youtube video (5 min) – 5% <br>&nbsp;&nbsp;2. Report (2 pages) – 2.5% <br>&nbsp;&nbsp;3. Source code (zip file) – 2.5% |
 
 

@@ -18,7 +18,7 @@ description: >-
 
 ## Final project 
 
-**Final project plan**{: .label .label-red } - Due Oct 23
+**Final project plan**{: .label .label-red } 
 -- 1 page describing your project idea, plan, team members and resposibilities
 
 ## Teams 
