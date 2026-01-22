@@ -15,4 +15,4 @@ Jan 20
 
 Jan 22
 : **Lab**{: .label .label-purple } [iPython Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-bootcamp.zip)
-: **HW 1 released**{: .label .label-green} [HW 1]({{site.url}}{{site.baseurl}}/assets/module-0-intro/xhw-1.pdf)
+: **HW 1 released**{: .label .label-green} [HW 1]({{site.url}}{{site.baseurl}}/assets/module-0-intro/hw-1.pdf)
