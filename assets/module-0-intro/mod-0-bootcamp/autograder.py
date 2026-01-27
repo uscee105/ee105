@@ -37,8 +37,8 @@ def test_q5(q5):
 
 def test_q6(q6):
     v = np.array([0,1,2,3,4,5])
-    N = 3
-    Output = np.array([3,4,5,0,1,2])
+    N = 2
+    Output = np.array([4,5,0,1,2,3])
     assert np.array_equal(q6(v,N), Output), 'Question 6 Failed!\nInput:\nv: %r\nN: %r\nCorrect Answer:\n%r\nYour Answer:\n%r' % (v, N, Output, q6(v,N))
     print('Question 6 Passed!')
 

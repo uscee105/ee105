@@ -15,3 +15,6 @@ Apr 30
 : **Team 8**{: .label .label-blue } 
 : **Team 9**{: .label .label-blue } 
 : **HW 6 due**{: .label .label-red}
+
+May 7
+: **Final, Thursday, 2:00 - 4:00 PM**{: .label .label-blue }

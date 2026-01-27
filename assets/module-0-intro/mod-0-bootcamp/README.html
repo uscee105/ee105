@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EE105 Lab 0 - Python Bootcamp</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.7;
+            color: #333;
+            background: #fafafa;
+        }
+        h1 {
+            color: #003262;
+            border-bottom: 4px solid #FDB515;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #003262;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .os-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .windows { background: #0078d4; color: white; }
+        .mac { background: #555; color: white; }
+        .file-name {
+            background: #f0f0f0;
+            padding: 8px 15px;
+            border-radius: 6px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 15px;
+            display: inline-block;
+            margin: 5px 0;
+        }
+        .step-num {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            background: #003262;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            font-weight: bold;
+            margin-right: 12px;
+        }
+        .step {
+            margin: 20px 0;
+            padding-left: 10px;
+        }
+        .note {
+            background: #e8f4fd;
+            border-left: 4px solid #0078d4;
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 15px 0;
+        }
+        .success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+        }
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 30px 0;
+        }
+        .columns {
+            display: flex;
+            gap: 20px;
+        }
+        .columns > div {
+            flex: 1;
+        }
+        @media (max-width: 600px) {
+            .columns { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🐍 EE105 Lab 0 — Python Bootcamp</h1>
+
+    <p>
+        In this course, we'll use <a href="https://jupyter.org/" target="_blank"><strong>Jupyter Notebook</strong></a> — an interactive coding environment where you can write and run Python code, see results instantly, and add notes alongside your code.
+    </p>
+    <p>
+        To run Jupyter, we'll install <a href="https://www.anaconda.com/" target="_blank"><strong>Anaconda</strong></a> — a free software package that includes Python, Jupyter, and all the scientific libraries you'll need (NumPy, Matplotlib, etc.).
+    </p>
+    <p>Follow these simple steps to get started.</p>
+
+    <!-- ==================== FIRST TIME SETUP ==================== -->
+    <h2>🚀 First Time Setup</h2>
+    
+    <p>Run this <strong>once</strong> to install everything you need.</p>
+
+    <div class="columns">
+        <div class="card">
+            <span class="os-badge windows">🪟 Windows</span>
+            <div class="step">
+                <span class="step-num">1</span> Double-click:<br>
+                <span class="file-name">Windows/setup_and_run.bat</span>
+            </div>
+            <div class="step">
+                <span class="step-num">2</span> Wait for installation (~15 min)
+            </div>
+            <div class="step">
+                <span class="step-num">3</span> When complete, close the window and run it again
+            </div>
+        </div>
+
+        <div class="card">
+            <span class="os-badge mac">🍎 Mac</span>
+            <div class="step">
+                <span class="step-num">1</span> <strong>Right-click</strong> → <strong>Open</strong>:<br>
+                <span class="file-name">Mac/setup_and_run.command</span>
+            </div>
+            <div class="step">
+                <span class="step-num">2</span> Click "Open" on any security prompts
+            </div>
+            <div class="step">
+                <span class="step-num">3</span> Follow the terminal prompts
+            </div>
+        </div>
+    </div>
+
+    <div class="note">
+        <strong>What this does:</strong> Downloads and installs Anaconda (Python + Jupyter + scientific packages), then launches the notebook.
+    </div>
+
+    <!-- ==================== OPENING NOTEBOOKS ==================== -->
+    <h2>📓 Opening Notebooks (After Setup)</h2>
+
+    <p>Use one of these methods each time you want to work on the notebooks:</p>
+
+    <div class="card">
+        <h3 style="margin-top:0;">Option 1: Use the Launcher Files</h3>
+        
+        <div class="columns">
+            <div>
+                <span class="os-badge windows">🪟 Windows</span><br>
+                Double-click:<br>
+                <span class="file-name">Windows/launch_notebook.bat</span>
+            </div>
+            <div>
+                <span class="os-badge mac">🍎 Mac</span><br>
+                Double-click:<br>
+                <span class="file-name">Mac/launch_notebook.command</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3 style="margin-top:0;">Option 2: From Applications</h3>
+        <p style="margin-bottom:0;">
+            <strong>Windows:</strong> Search for <strong>"Jupyter Notebook"</strong> in Start Menu<br>
+            <strong>Mac:</strong> Open <strong>Anaconda Navigator</strong> → Click <strong>Launch</strong> under Jupyter Notebook
+        </p>
+    </div>
+
+    <!-- ==================== USING JUPYTER ==================== -->
+    <h2>📖 Using Jupyter Notebook</h2>
+
+    <div class="card">
+        <div class="step">
+            <span class="step-num">1</span> A browser window will open showing your files
+        </div>
+        <div class="step">
+            <span class="step-num">2</span> Click on any <span class="file-name">.ipynb</span> file to open it
+        </div>
+        <div class="step">
+            <span class="step-num">3</span> To run a cell: click on it and press <strong>Shift + Enter</strong> (runs and moves to next cell) or <strong>Ctrl/Cmd + Enter</strong> (runs and stays on cell)
+        </div>
+        <div class="step">
+            <span class="step-num">4</span> Run cells from top to bottom in order
+        </div>
+    </div>
+
+    <!-- ==================== SUBMISSION ==================== -->
+    <h2>✅ Submit Your Work</h2>
+
+    <p>To complete this lab, you must fill out and submit the Google Form below.</p>
+
+    <div class="card" style="text-align: center; background: #e8f4fd;">
+        <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>📝 Lab Completion Form</strong></p>
+        <a href="https://forms.gle/RLMeS3ujynWWKhh57" target="_blank" 
+           style="display: inline-block; background: #003262; color: white; padding: 12px 30px; 
+                  border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px;">
+            Open Submission Form →
+        </a>
+    </div>
+
+    <div class="card">
+        <div class="step">
+            <span class="step-num">1</span> Study the tutorial notebook: <span class="file-name">mod-0-lecture-4-ece-105-python-bootcamp.ipynb</span>
+        </div>
+        <div class="step">
+            <span class="step-num">2</span> Answer the form questions (based on the tutorial notebook)
+        </div>
+        <div class="step">
+            <span class="step-num">3</span> Complete <span class="file-name">mod-0-lecture-4-ece-105-Questions-v2.ipynb</span>, export as HTML (<strong>File → Save and Export Notebook as → HTML</strong>), and upload it in the form
+        </div>
+    </div>
+
+    <div class="warning">
+        <strong>Important:</strong> Submitting this form confirms that you have completed the Python Bootcamp lab.
+    </div>
+
+    <!-- ==================== TROUBLESHOOTING ==================== -->
+    <h2>❓ Troubleshooting</h2>
+
+    <div class="card">
+        <details>
+            <summary><strong>Mac: "Cannot be opened because it is from an unidentified developer"</strong></summary>
+            <p>Right-click the file → select <strong>"Open"</strong> → click <strong>"Open"</strong> in the dialog.</p>
+        </details>
+
+        <details>
+            <summary><strong>Windows: Nothing happens when I double-click</strong></summary>
+            <p>Make sure you've unzipped the folder first. If you're viewing files inside a .zip file, the scripts won't work.</p>
+        </details>
+
+        <details>
+            <summary><strong>Jupyter opens but I don't see my files</strong></summary>
+            <p>Use the launcher files from this folder. They open Jupyter in the correct directory.</p>
+        </details>
+    </div>
+
+    <hr>
+
+    <div class="success">
+        <strong>✅ That's it!</strong><br>
+        This process should work for most PCs. If you encounter any issues and are unable to solve them yourself, mail your TA <a href="mailto:shadmans@usc.edu">here</a> with the exact issue/error that you are facing.
+    </div>
+
+</body>
+</html>
