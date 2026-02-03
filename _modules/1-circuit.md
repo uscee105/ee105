@@ -12,7 +12,8 @@ Jan 29
 
 Feb 3
 : [Circuits 2]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-6-circuit-analysis-2.pdf)
-: [**Lab**{: .label .label-purple } Asymmetric touchpanel]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-5-circuit-analysis-asymmetric_touchpanel-lab.pdf)
+: [**Lab**{: .label .label-purple } Asymmetric touchpanel]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-5-circuit-analysis-asymmetric_touchpanel-lab.pdf) 
+: [**Lab checkoff**{: .label .label-purple } Form](https://forms.gle/i36q8DKGX4DgWsaS7)
 : **HW 1 due**{: .label .label-red }
 
 Feb 5
