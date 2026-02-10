@@ -24,4 +24,5 @@ Feb 5
 Feb 10
 : [**Tutorial**{: .label .label-black} Circuit problems]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-8-circuit-problems.pdf)
   : [**Lab**{: .label .label-purple } Circuit analysis with python]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-8-circuit-analysis-2-calc-lab.pdf)
-: **HW 2 released**{: .label .label-green}[HW 2]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/xhw-2.pdf)
+  : [**Lab checkoff**{: .label .label-purple } Form](https://forms.gle/2ZRaDf5AaRHscEZe9)
+: **HW 2 released**{: .label .label-green}[HW 2]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/hw-2.pdf)
