@@ -8,7 +8,7 @@ Feb 12
 Feb 17
 : [Device 2]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-10-devices-2.pdf)
 : **HW 2 due**{: .label .label-red }
-: **HW 3 released**{: .label .label-green}[HW 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/xhw-3.pdf)
+: **HW 3 released**{: .label .label-green}[HW 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/hw-3.pdf)
 
 Feb 19
 : [**Lab**{: .label .label-purple } Diode analysis]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-11-diode.zip)
@@ -16,7 +16,7 @@ Feb 19
 
 Feb 24
 : [Device 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-12-devices-opto.pdf)
-: **Practice MIDTERM**{: .label .label-green}[Practice MIDTERM]({{site.url}}{{site.baseurl}}/assets/module-2-device/xfall-25-practice-midterm.pdf)
+: **Practice MIDTERM**{: .label .label-green}[Practice MIDTERM]({{site.url}}{{site.baseurl}}/assets/module-2-device/fall-25-practice-midterm.pdf)
 : **HW 3 due**{: .label .label-red }
 
 Feb 26
