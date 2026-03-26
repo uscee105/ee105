@@ -7,8 +7,9 @@ Mar 24
   
 
 Mar 26
-: [Nueral network 2]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-17-18-hardware-nn.pdf)
+: [Nueral network 2]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lab-MNIST.pdf)
   : [**Lab**{: .label .label-purple } Imange/text classification]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-nn-labs.zip)
+  : [**Lab checkoff**{: .label .label-purple } Form](https://forms.gle/xttKRoyMdtau1WWR6)
 
 Mar 31
 : [Nueral network 3]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn.pdf)
