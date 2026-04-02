@@ -12,14 +12,15 @@ Mar 26
   : [**Lab checkoff**{: .label .label-purple } Form](https://forms.gle/xttKRoyMdtau1WWR6)
 
 Mar 31
-: [Nueral network 3]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn.pdf)
-  : [**Lab**{: .label .label-purple } Imange/text classification]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-nn-labs.zip)
+: [Nueral network 3]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-17-18-hardware-nn.pdf)
 
 Apr 2
-: [Nueral network 4]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn.pdf)
-  : [**Lab**{: .label .label-purple } Imange/text classification with arduino and TinyML]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-nn-labs.zip)
+: [Nueral network 2]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lab-MNIST.pdf)
+  : [**Lab**{: .label .label-purple } Imange/text classification]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-nn-labs.zip)
+  : [**Lab checkoff**{: .label .label-purple } Form](https://forms.gle/xttKRoyMdtau1WWR6)
 : **HW 4 due**{: .label .label-red }
 : **HW 5 released**{: .label .label-green}[HW 5]({{site.url}}{{site.baseurl}}/assets/module-4-ml/xhw-5.pdf)
 
 Apr 7
+: [Nueral network 3]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn.pdf)
 : [**Lab**{: .label .label-purple } Imange/text classification]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-nn-labs.zip)
