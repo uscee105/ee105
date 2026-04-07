@@ -25,4 +25,5 @@ Apr 7
 : [Nueral network 3]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn-short.pdf)
 : [Lab setup]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-4-MNIST-EVAL.pdf)
 : [**Lab**{: .label .label-purple } Imange classification with arduino]({{site.url}}{{site.baseurl}}/assets/module-4-ml/camera_python_nn_eval.zip)
+: [**Lab checkoff**{: .label .label-purple } Form](https://forms.gle/vehxqRSMdr1HyeoU6)
 : **HW 5 released**{: .label .label-green}[HW 5]({{site.url}}{{site.baseurl}}/assets/module-4-ml/xhw-5.pdf)
