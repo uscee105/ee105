@@ -14,7 +14,7 @@ Apr 16
   : [**Demo**{: .label .label-purple} Sensor fusion]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-sensor-fusion.zip)
 
 Apr 21
-: **No Class - Project Work**{: .label .label-yellow }
+: **No Class - Lab Tour (Nanofab, DISC imaging, Khan Lab), TEAM 1 - 5 (meet at MCB lobby at 2pm), TEAM 6 - 10 (meet at MCB lobby at 3pm)**{: .label .label-yellow }
 : **HW 5 due**{: .label .label-red }
 : **HW 6 released**{: .label .label-green } [HW 6]({{site.url}}{{site.baseurl}}/assets/module-5-comm/hw-6.pdf)
 : **Practice FINAL**{: .label .label-green } [Practice FINAL]({{site.url}}{{site.baseurl}}/assets/module-5-comm/final-practice-ee-105-fall-2025.pdf)
