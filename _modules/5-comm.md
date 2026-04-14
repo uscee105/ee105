@@ -7,7 +7,9 @@ Apr 9
 : [Communications 1]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-21-opt-comm.pdf)
 
 Apr 14
+: [Communications Lab Setup]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-Lifi_v2.pdf)
 : [**LAB**{: .label .label-black} LiFi]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi-v2.zip)
+: [**Lab checkoff**{: .label .label-purple } Form](https://forms.gle/PMFFeJ3MEMiGc9uo7)
 
 Apr 16
 : [Communications 2]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-22-sensor-fusion.pdf)
