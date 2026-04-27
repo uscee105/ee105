@@ -20,6 +20,7 @@ Apr 21
 : **HW 5 due**{: .label .label-red }
 : **HW 6 released**{: .label .label-green } [HW 6]({{site.url}}{{site.baseurl}}/assets/module-5-comm/hw-6.pdf)
 : **Practice FINAL**{: .label .label-green } [Practice FINAL]({{site.url}}{{site.baseurl}}/assets/module-5-comm/final-practice-ee-105-fall-2025.pdf)
+: **Practice FINAL Sol**{: .label .label-green } [Practice FINAL Sol]({{site.url}}{{site.baseurl}}/assets/module-5-comm/final-practice-ee-105-fall-2025-solve.pdf)
 : **FINAL topic list**{: .label .label-green } [FINAL topic list]({{site.url}}{{site.baseurl}}/assets/module-5-comm/final-reading-list.pdf)
 
 
