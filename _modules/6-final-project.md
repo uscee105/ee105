@@ -16,6 +16,7 @@ Apr 30
 : **Team 9**{: .label .label-blue } Gesture Math -- Julian Lee, Hanyu Chi, Talan, Ashton Chiu
 : **Team 10**{: .label .label-blue } Arduino Karaoke -- Edward Whitesel, Mohammad Moghaddam, Walter Ortega, Nareg Dro Farhadian, Shayan Hedayati, Braden Ling 
 : **HW 6 due**{: .label .label-red}
+: [**Project Poll**{: .label .label-purple } Form](https://forms.gle/sAwz76rapia18ECC9)
 
 May 7
 : **Final, Thursday, 2:00 - 4:00 PM**{: .label .label-blue }
