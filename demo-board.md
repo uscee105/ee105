@@ -2,7 +2,7 @@
 layout: page
 title: Demo Board
 description: >-
-    Descrition of the hardware demo board
+    Description of the hardware demo board
 ---
 
 # About
@@ -18,9 +18,9 @@ description: >-
 
 ## Hardware setup
 
-## Arduino 
+## Arduino
 
-## Running arduino code
+## Running Arduino code
 
 ## Circuit module
 

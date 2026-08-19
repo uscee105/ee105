@@ -8,6 +8,16 @@
 @import 'staffer';
 
 // Overrides
+
+// Custom label color -- weekly quizzes. Not provided by just-the-docs, which
+// ships only blue/green/purple/red/yellow. custom.scss is imported last, so
+// this wins over `.label:not(g)` at equal specificity.
+.label-orange:not(g),
+.label-orange {
+  background-color: #e8590c;
+  color: $white;
+}
+
 code {
   font-size: 14px;
   padding: 0.2em 0.4em;
