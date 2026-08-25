@@ -18,26 +18,42 @@ timeline:
   - '4:30 PM'
   - '5:00 PM'
   - '5:30 PM'
+  - '6:00 PM'
 schedule:
+  # Office hours are not scheduled yet. To add them later, append an event with
+  #   `class: office-hours` to the relevant day, e.g.
+  #     - name: 'Office Hours'
+  #       class: office-hours
+  #       start: 6:00 PM
+  #       end: 7:00 PM
+  #       location: OHE 230
   - name: Tuesday
     events:
-      - name: Lecture
+      - name: 'Lecture (Sec 30884)'
+        class: lecture
         start: 2:00 PM
         end: 3:50 PM
         location: OHE 230
-      - name: Office Hours
+        instructor: 'Prof. Rehan Kapadia'
+      - name: 'Lecture (Sec 30882)'
+        class: section
         start: 4:00 PM
-        end: 5:00 PM
+        end: 5:50 PM
         location: OHE 230
+        instructor: 'Erez Zolkov'
 
   - name: Thursday
     events:
-      - name: Lecture
+      - name: 'Lecture (Sec 30884)'
+        class: lecture
         start: 2:00 PM
         end: 3:50 PM
         location: OHE 230
-      - name: Office Hours
+        instructor: 'Prof. Rehan Kapadia'
+      - name: 'Lecture (Sec 30882)'
+        class: section
         start: 4:00 PM
-        end: 5:00 PM
+        end: 5:50 PM
         location: OHE 230
+        instructor: 'Erez Zolkov'
 ---
