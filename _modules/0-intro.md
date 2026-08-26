@@ -9,7 +9,6 @@ Aug 25
 Aug 27
 : [Introduction to Electronic Systems]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-lecture-2-system-design.pdf)
   : **Lab**{: .label .label-purple } [Show demo of the board](#)
-: **Weekly Quiz**{: .label .label-orange }
 
 Sep 1
 : **Lab**{: .label .label-purple } [Arduino Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-lecture-3-arduino-installation.pdf)
