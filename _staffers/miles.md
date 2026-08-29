@@ -8,4 +8,4 @@ meta:
   Office Hours: 'Mondays, 12:00 PM - 2:00 PM, EEB 514'
 ---
 
-My research focuses on quantum error correction and fault tolerance.
+My research focuses on quantum error correction and fault tolerance, which are tools for scaling quantum computers.
