@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EE105 Lab 1 - Arduino Check-in</title>
+<style>
+    * { box-sizing: border-box; }
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        max-width: 700px; margin: 40px auto; padding: 20px;
+        line-height: 1.7; color: #333; background: #fafafa;
+    }
+    h1 { color: #990000; border-bottom: 4px solid #FFCC00; padding-bottom: 15px; }
+    .card {
+        background: white; border-radius: 12px; padding: 22px 25px; margin: 18px 0;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 5px solid transparent;
+    }
+    .card.done { border-left-color: #28a745; }
+    .step-num {
+        display: inline-block; width: 30px; height: 30px; background: #990000; color: white;
+        border-radius: 50%; text-align: center; line-height: 30px; font-weight: bold; margin-right: 10px;
+    }
+    .card.done .step-num { background: #28a745; }
+    input[type=text], input[type=email] {
+        font: inherit; padding: 8px 12px; border: 1.5px solid #ccc; border-radius: 8px; width: 100%;
+    }
+    .row { display: flex; gap: 10px; margin-top: 12px; flex-wrap: wrap; }
+    .row input { flex: 1; min-width: 120px; }
+    button {
+        font: inherit; font-weight: 600; background: #990000; color: white; border: none;
+        border-radius: 8px; padding: 8px 20px; cursor: pointer;
+    }
+    button:hover { background: #7a0000; }
+    button:disabled { background: #ccc; cursor: not-allowed; }
+    button.alt { background: #f0f0f0; color: #333; border: 1.5px solid #ccc; }
+    button.alt:hover { background: #e4e4e4; }
+    .feedback { margin-top: 10px; font-weight: 600; min-height: 1.4em; }
+    .feedback.ok { color: #1e7e34; }
+    .feedback.bad { color: #b02a37; }
+    .note {
+        background: #e8f4fd; border-left: 4px solid #0078d4; padding: 12px 18px;
+        border-radius: 0 8px 8px 0; margin: 15px 0;
+    }
+    .warn {
+        background: #fff3cd; border-left: 4px solid #ffc107; padding: 12px 18px;
+        border-radius: 0 8px 8px 0; margin: 15px 0; display: none;
+    }
+    .muted { color: #667; font-size: 14px; }
+    .pill { background:#f0f0f0; border-radius: 6px; padding: 2px 8px; font-weight: 600; white-space: nowrap; }
+    .formula {
+        text-align: center; font-family: 'Monaco', 'Menlo', 'Consolas', monospace; font-size: 16px;
+        background: #f7f7f7; border-radius: 8px; padding: 10px 14px; margin: 12px 0;
+    }
+    .hint {
+        background: #fff3cd; border-left: 4px solid #ffc107; padding: 10px 16px;
+        border-radius: 0 8px 8px 0; margin: 12px 0;
+    }
+    #whoami { margin-top: 8px; }
+    a { color: #990000; }
+</style>
+</head>
+<body>
+
+<h1>🔌 EE105 Lab 1 — Arduino Check-in</h1>
+<p>Work through the lab with your TA. At each <strong>🚩 checkpoint</strong>, answer here — you'll see instantly
+whether you got it, and your progress checks in with the TA as you go.</p>
+
+<div class="card" id="regCard">
+    <span class="step-num">👤</span><strong>Register once</strong>
+    <div class="row">
+        <input type="text" id="regName" placeholder="Your Name" autocomplete="name">
+        <input type="email" id="regEmail" placeholder="yourid@usc.edu" autocomplete="email">
+        <button id="regBtn">Register</button>
+    </div>
+    <div class="feedback" id="regFb"></div>
+    <div class="muted" id="whoami"></div>
+</div>
+
+<div class="warn" id="netWarn"><strong>⚠️ Some check-ins couldn't reach the TA</strong> (no internet?).
+Your progress is still saved in this browser — flag a TA so it gets counted.</div>
+
+<div id="checkpoints"></div>
+
+<p class="muted">Stuck? Ask a TA — that's what lab time is for. <a href="#" id="switchLink">Switch student</a></p>
+
+<script>
+/* ================= TA CONFIGURATION (same pipeline as ee105_checkin.py) ================= */
+const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdA222BHCDShshEsOviOHWNxREyoc1yMu-i5yJ5cFTWrEvZWg/formResponse";
+const ENTRY = {
+    name:   "entry.539499380",
+    email:  "entry.1164992321",
+    item:   "entry.167614228",
+    status: "entry.2119807945",
+    detail: "entry.1976500257",
+    section: "entry.724940179"
+};
+const REQUIRE_ROSTER = false;      // true = students not on the roster cannot register
+// Class roster: sha256 digest of each enrolled email -> section number (the
+// roster is not readable from this page's source). Regenerate with:
+//   python3 ta-tools/make_roster.py <roster1.csv> <roster2.csv>
+const ROSTER_SECTIONS = {
+    "03579d0690d6275a87a1b6e7882283d3f54a39276a0b1310033c19030673720a": "30882",
+    "070b16ab77f0185fe05befd0984393236647eaad42c7f31c8961f1eaead95433": "30882",
+    "0d7ed666367a74908999a4ba267dbcc245efa64f49192ddd2814c85f49fc3baf": "30882",
+    "0f4be59a94b618737833e34f388a74de2f7640f728993b1f6327061e147e7e39": "30882",
+    "0f74e5e9f349b396af4670fa55fbb61256f11dc5f3e653347406eab357d36219": "30882",
+    "165fa85e71cf51df649f74a383ab339fc31a426cec55e48f7887dfe8f69d0ad6": "30882",
+    "17f79d6f28ffd1f09569798d6fab1cf4354bc4eaee5b98c35200454c9fd2397e": "30882",
+    "25597d458ea4feb7b80f28264b76e420a7580252b4d41681a2c44cb2075646a4": "30882",
+    "311195f20d6392675ad23e767de84296ee0a267dc04f4218901d1ae673c294f5": "30882",
+    "36d9788a5b14c6f5e5c3f71cbc7baeeaa5e52723360333c73da640445306a7ce": "30882",
+    "382df582a6823972c06d3373457f9ca5aade13c367dbd70fd168ddf89c3852bb": "30882",
+    "3adf0eae09967d6428801529f091209fb4a9be1be44a2f1af7bcca8ae3660ef0": "30882",
+    "3e67b0c2520c33be5cec3c048e1e9408c8d6eb46be5c47f9629d8fce5181c0d5": "30882",
+    "3fc32236914cd15ad88f1e601320f58fceddaa0eb510e0df90822c9ed5dda5cd": "30882",
+    "52a23545e7f53fd8b0b2cb12a30f7945f662f6baa76cfce9846664a08ed69884": "30882",
+    "5647dc3c6ccbe30d844fe9fbe7eee6107b35863e1c869afbf47a58ffac8d8936": "30882",
+    "5c4dcdc80e41417d024c030b02f0bf35e002e7dd3859ada1919f30dbd8534ef8": "30882",
+    "6ba786c7924ef6ad606b5e4e80a80be6827279645acc4f2cd3572f20dafcaaad": "30882",
+    "6fec52a3bd11f5a488bc224eb759d786de88f568c6a7864b761f2dfef8587eda": "30882",
+    "70ec934570bf6edf38b9622fe83897f41e964d9741264e02eb3a17ba31a9f377": "30882",
+    "7148fe043cc0bf1d39ff2dd48e02683c157dc4271ceadd9ce4edaebbfef1cabb": "30882",
+    "728a84a3d7b84e301e782088c5ed4484d20a0d86c5b5ebea09ed6e23837e0b86": "30882",
+    "76a6c8cf1864737fefccc2be302af54747e1f285c7c70e94d420ff056caede84": "30882",
+    "77d4ed8b38da80b117c3e2d3c29aab9b6decf3ca344b8474e8098eed198870b5": "30882",
+    "7877bccaf9a1866e9bdbe932815d750ac14341ad1579a5d687c8b443dad1fb4f": "30882",
+    "794220004f7a1013e8c1757940718a2947f25a9fcc2fa38e9846a074e82a760c": "30882",
+    "7ce5a2a36f811be04e91f73847f5ad0d93dc5434ef5be2db7bf223b823e099b6": "30882",
+    "7da7c2354c53726f72bf8c292f72252cc73e93877620cfbf0807be2a528e9558": "30882",
+    "8459abe6610221e5cf1c9b9649e276225582a1c8c7302e30f4a09b36605ba305": "30882",
+    "870ce15861ad6b4a2d2e55bc91f1fd155846bef5488673ef2eecfa633e70c21f": "30882",
+    "a3ef83553bff485466ea29ab3bac090cdcc7ef2d5f7e157aeb1a52aadc3745a9": "30882",
+    "ad03af0554ffa7ebba04e721b5a28376b7833e92a25aa23257c564ef10860b29": "30882",
+    "bc899dffa871be649e6b33cc9e20a66f3475d0ced85867821fab6e636fc8b109": "30882",
+    "bcbe2c8e60a97c29be9a01235cc6c2dbba10b283fe010deeb8fe6370f3a3f127": "30882",
+    "bd09e61da5c4b0dd5885e0c44f39a95264aa2620ec40c64d771155aa503bc37a": "30882",
+    "c718797e569125fb9c7854b1caff6d13a808febed2443c4b9ebbe4fe7d314b1c": "30882",
+    "cf2e4478f93ec28fec7a57aa44adceb2c17cd7804e5c4ec9868d5e4435dad8be": "30882",
+    "d0c8160ed7713f80078f7b787c68ef0ab751833414a31a625bf2923994006527": "30882",
+    "d7ea20165a56f4adbcee0ceaf3147aa829a9b27c17c66060fa7cd25c3fa19860": "30882",
+    "dc3006d3ce06ddbd146d220841f378e491c57941a7c9f4d564a028a0008b0246": "30882",
+    "de50976c8f864d24ad52c8b7f6a9db23b93709a60f773d8f287d316bb89f925f": "30882",
+    "e2a81778a68c77c9dd605cc851495323bbf725a79428c77850cd14f4a6067c8a": "30882",
+    "e9f49dbeffb908afc08818c87b53e7c95f0d877db3248be258aa0621e12ebc6e": "30882",
+    "ee514994a8cab9315c2c9268c8fe6474b9ec0b668b10ae9fac6ed09c9f751d71": "30882",
+    "f399dd064035f2f0fea5ab15d34be94dbf690f49142a0ab50cd2035788cdd25a": "30882",
+    "f43be37ef2dc9fda68af4a1889ecee6b6282d2cb236860e1da86d7eb9e5051fa": "30882",
+    "fa298ac14cefc30a2f0960e31809da89a5f2aa1ed62bc4eb8534a7aa7cc52480": "30882",
+};
+/* ========================================================================================= */
+
+/*CORE-START*/
+// Minimal synchronous SHA-256 (returns lowercase hex).
+function sha256(str) {
+    const K = [0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,
+        0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,
+        0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,
+        0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,
+        0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,
+        0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,
+        0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,
+        0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];
+    let H = [0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];
+    const rr = (x, n) => (x >>> n) | (x << (32 - n));
+    const bytes = new TextEncoder().encode(str);
+    const bitLen = bytes.length * 8;
+    const padded = new Uint8Array((((bytes.length + 8) >> 6) + 1) << 6);
+    padded.set(bytes);
+    padded[bytes.length] = 0x80;
+    new DataView(padded.buffer).setUint32(padded.length - 4, bitLen >>> 0);
+    new DataView(padded.buffer).setUint32(padded.length - 8, Math.floor(bitLen / 0x100000000));
+    const w = new Int32Array(64);
+    for (let off = 0; off < padded.length; off += 64) {
+        const dv = new DataView(padded.buffer, off, 64);
+        for (let i = 0; i < 16; i++) w[i] = dv.getUint32(i * 4);
+        for (let i = 16; i < 64; i++) {
+            const s0 = rr(w[i-15], 7) ^ rr(w[i-15], 18) ^ (w[i-15] >>> 3);
+            const s1 = rr(w[i-2], 17) ^ rr(w[i-2], 19) ^ (w[i-2] >>> 10);
+            w[i] = (w[i-16] + s0 + w[i-7] + s1) | 0;
+        }
+        let [a,b,c,d,e,f,g,h] = H;
+        for (let i = 0; i < 64; i++) {
+            const S1 = rr(e,6) ^ rr(e,11) ^ rr(e,25);
+            const ch = (e & f) ^ (~e & g);
+            const t1 = (h + S1 + ch + K[i] + w[i]) | 0;
+            const S0 = rr(a,2) ^ rr(a,13) ^ rr(a,22);
+            const maj = (a & b) ^ (a & c) ^ (b & c);
+            const t2 = (S0 + maj) | 0;
+            h=g; g=f; f=e; e=(d+t1)|0; d=c; c=b; b=a; a=(t1+t2)|0;
+        }
+        H = H.map((x, i) => (x + [a,b,c,d,e,f,g,h][i]) | 0);
+    }
+    return H.map(x => (x >>> 0).toString(16).padStart(8, "0")).join("");
+}
+
+// Mirror of ee105_checkin.py's answer normalization.
+function norm(ans) {
+    let s = String(ans).trim().toLowerCase().replace(/^['"]+|['"]+$/g, "").replace(/\s+/g, " ");
+    if (/^[-+]?[\d.]/.test(s)) {
+        const f = parseFloat(s);
+        if (isFinite(f)) return String(f);
+    }
+    return s;
+}
+
+const CHECKPOINTS = [
+    { id: "arduino:cp0", num: 1, title: "LED_BUILTIN", type: "hash", key: "cp0",
+      digest: "d2f2b5dc20a3da8e306c7b7c95b15b37a45db9d5089b922237f3a4b8f7f6452b",
+      q: "What is the <strong>value</strong> and <strong>data type</strong> of " +
+         "<span class='pill'>LED_BUILTIN</span> for the given Arduino board?",
+      choices: ["9, int", "9.0, float", "11, unsigned int", "13, unsigned int"] },
+    { id: "arduino:cp2", num: 2, title: "Blink, modified", type: "hash", key: "cp2",
+      digest: "41f811f5ce3fb70d65f160020a209e5866b281ccc372695a8c8e58d3daa83f00",
+      q: "In the Blink sketch, what value (in ms) do you give <span class='pill'>delay()</span> so the LED " +
+         "spends half a second on and half a second off? Change it, upload, and watch the LED.",
+      placeholder: "number" },
+    { id: "arduino:cp3", num: 3, title: "Delay from frequency", type: "hash", key: "cp3",
+      digest: "dc941a9e309ead46529f5faf6f91c1c8c1e04797ddf143d9327491ff5e8f2c51",
+      q: "For altering the frequency of LED blinking by a global constant <span class='pill'>f</span> (in Hz), " +
+         "what should be the parameter of the <em>two</em> <span class='pill'>delay()</span> calls inside " +
+         "<span class='pill'>void loop()</span>?",
+      choices: ["1/f", "1/2/f", "1000/2/f", "1/2*f*1000"] },
+    { id: "arduino:serial", num: 4, title: "Serial Monitor — missing output", type: "hash", key: "serial",
+      digest: "07fc83bc6defaf669242b0d6c7e0a19aec8dc299c885ae89acfe52e4786b5d9b",
+      q: "You add <span class='pill'>Serial.print()</span> lines inside <span class='pill'>void setup()</span>, " +
+         "but nothing shows up in the Serial Monitor — the board printed before the monitor finished connecting. " +
+         "Which line, placed right after <span class='pill'>Serial.begin(9600)</span>, makes the board " +
+         "<strong>wait for the Serial Monitor</strong> before continuing? <em>(Shown in class — pay attention!)</em>",
+      choices: ["while (!Serial);", "delay(1000);", "Serial.flush();", "Serial.println();"] },
+    { id: "arduino:cp4", num: 5, title: "Altitude from pressure", type: "range", min: -305, max: 545,
+      q: "What is your (rough) <strong>relative altitude, in meters</strong>, with respect to sea level? " +
+         "Modify the <span class='pill'>pressure.ino</span> code to compute it from your barometer reading " +
+         "and plot it:" +
+         "<div class='formula'>H = 44330 × [ 1 − ( P / P<sub>slvl</sub> )<sup>1/5.255</sup> ]</div>" +
+         "<div class='muted'>H = altitude (m) &nbsp;·&nbsp; P = pressure from your barometer (kPa) " +
+         "&nbsp;·&nbsp; P<sub>slvl</sub> = 101.325 kPa (atmospheric pressure at sea level)</div>" +
+         "<div class='hint'>⚠️ <strong>C is not Python or MATLAB:</strong> in C, <span class='pill'>^</span> is " +
+         "<em>not</em> \"to the power of\" — it's a completely different operator (bitwise XOR), and your sketch " +
+         "will compile but print garbage. You <strong>must use the <span class='pill'>pow()</span> function</strong> " +
+         "from <span class='pill'>&lt;math.h&gt;</span>: <span class='pill'>pow(base, exponent)</span> — here, " +
+         "<span class='pill'>pow(P / 101.325, 1.0 / 5.255)</span>.</div>" +
+         "Enter the altitude your board computes (a rough number is fine):",
+      placeholder: "altitude (m)" },
+    { id: "arduino:cp5", num: 6, title: "Dashboard paired", type: "hash", key: "cp5",
+      digest: "8e87bc86217280edb845af00002da5270543a3fb68ad86989e8c84abe2a9cdda",
+      q: "With the BLE dashboard streaming, cover the sensor end of the board with your hand. Does the " +
+         "<strong>Proximity</strong> number go <em>up</em> or <em>down</em>?",
+      choices: ["Up", "Down"] },
+    { id: "arduino:classwork1", num: 7, title: "Classwork 1", type: "claim",
+      q: "Write the blink-frequency function from the Classwork 1 slide, show it running to a TA, " +
+         "then click below." },
+];
+
+function checkAnswer(cp, raw) {
+    if (cp.type === "range") {
+        const f = parseFloat(norm(raw));
+        return isFinite(f) && f >= cp.min && f <= cp.max;
+    }
+    // Multiple-choice answers are compared as exact strings (numeric normalization
+    // would mangle options like "1000/2/f"); typed answers go through norm().
+    const n = cp.choices ? String(raw).trim().toLowerCase() : norm(raw);
+    return sha256(cp.key + "|" + n) === cp.digest;
+}
+/*CORE-END*/
+
+// ---------------- state (localStorage, fail-open) ----------------
+function lsGet(k, fallback) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : fallback; } catch (e) { return fallback; } }
+function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+
+// Identity is session-only: every page load starts with blank fields.
+// Progress is keyed by email, so re-registering with the same email restores it.
+let identity = null;
+try { localStorage.removeItem("ee105.identity"); } catch (e) {}
+function stateKey() { return "ee105.state." + identity.email; }
+function getState() { return lsGet(stateKey(), { passed: {}, reported: {}, attempts: {} }); }
+function setState(s) { lsSet(stateKey(), s); }
+
+let failedSends = 0;
+
+function report(item, status, detail, markOnSuccess) {
+    if (!identity) return Promise.resolve(false);
+    const body = new URLSearchParams();
+    body.set(ENTRY.name, identity.name);
+    body.set(ENTRY.email, identity.email);
+    body.set(ENTRY.item, item);
+    body.set(ENTRY.status, status);
+    body.set(ENTRY.detail, detail);
+    if (ENTRY.section) body.set(ENTRY.section, identity.section || "");
+    body.set("fvv", "1"); body.set("pageHistory", "0");
+    return fetch(FORM_URL, {
+        method: "POST", mode: "no-cors",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: body.toString()
+    }).then(() => {
+        if (markOnSuccess) { const s = getState(); s.reported[item] = Date.now(); setState(s); }
+        return true;
+    }).catch(() => {
+        failedSends++;
+        document.getElementById("netWarn").style.display = "block";
+        return false;
+    });
+}
+
+function reportOnce(item, status, detail) {
+    if (getState().reported[item]) return;
+    report(item, status, detail, true);
+}
+
+// ---------------- UI ----------------
+const cpHost = document.getElementById("checkpoints");
+
+function build() {
+    cpHost.innerHTML = "";
+    for (const cp of CHECKPOINTS) {
+        const card = document.createElement("div");
+        card.className = "card"; card.id = "card-" + cp.id;
+        let controls;
+        if (cp.type === "claim") {
+            controls = `<div class="row"><button data-claim="${cp.id}">A TA checked my function ✓</button></div>`;
+        } else if (cp.choices) {
+            controls = `<div class="row">` + cp.choices.map(c =>
+                `<button class="alt" data-choice="${c}" data-cp="${cp.id}">${c}</button>`).join("") + `</div>`;
+        } else {
+            controls = `<div class="row"><input type="text" id="in-${cp.id}" placeholder="${cp.placeholder}">
+                        <button data-check="${cp.id}">Check</button></div>`;
+        }
+        card.innerHTML = `<span class="step-num">${cp.num}</span><strong>🚩 ${cp.title}</strong>
+            <div style="margin:10px 0 0">${cp.q}</div>${controls}<div class="feedback" id="fb-${cp.id}"></div>`;
+        cpHost.appendChild(card);
+    }
+    cpHost.addEventListener("click", (ev) => {
+        const b = ev.target.closest("button");
+        if (!b) return;
+        if (b.dataset.claim) doClaim(b.dataset.claim);
+        else if (b.dataset.check) doCheck(b.dataset.check, document.getElementById("in-" + b.dataset.check).value);
+        else if (b.dataset.cp) doCheck(b.dataset.cp, b.dataset.choice);
+    });
+    cpHost.querySelectorAll("input").forEach(inp => inp.addEventListener("keydown", ev => {
+        if (ev.key === "Enter") ev.target.parentElement.querySelector("button").click();
+    }));
+}
+
+function requireReg(fbEl) {
+    if (identity) return true;
+    fbEl.textContent = "Register first (top of the page) so this counts!";
+    fbEl.className = "feedback bad";
+    return false;
+}
+
+function doCheck(id, raw) {
+    const cp = CHECKPOINTS.find(c => c.id === id);
+    const fb = document.getElementById("fb-" + id);
+    if (!requireReg(fb)) return;
+    if (String(raw).trim() === "") { fb.textContent = "Type an answer first."; fb.className = "feedback bad"; return; }
+    const s = getState();
+    s.attempts[id] = (s.attempts[id] || 0) + 1;
+    const attempt = s.attempts[id];
+    if (checkAnswer(cp, raw)) {
+        if (!s.passed[id]) s.passed[id] = Date.now();
+        setState(s);
+        fb.textContent = "✅ Checkpoint passed!";
+        fb.className = "feedback ok";
+        reportOnce(id, "pass", "attempt " + attempt);
+    } else {
+        setState(s);
+        fb.textContent = "❌ Not quite — do the step on your board and try again.";
+        fb.className = "feedback bad";
+        const shown = cp.choices ? String(raw).trim().toLowerCase() : norm(raw);
+        report(id, "fail", "attempt " + attempt + ": answered '" + shown + "'", false);
+    }
+    refresh();
+}
+
+function doClaim(id) {
+    const fb = document.getElementById("fb-" + id);
+    if (!requireReg(fb)) return;
+    const s = getState();
+    if (!s.passed[id]) s.passed[id] = Date.now();
+    s.attempts[id] = (s.attempts[id] || 0) + 1;
+    setState(s);
+    fb.textContent = "✅ Recorded — nice work!";
+    fb.className = "feedback ok";
+    reportOnce(id, "claimed", "TA-verified in person");
+    refresh();
+}
+
+function refresh() {
+    const who = document.getElementById("whoami");
+    if (identity) {
+        who.textContent = `Checked in as ${identity.name} <${identity.email}>`;
+        document.getElementById("regName").value = identity.name;
+        document.getElementById("regEmail").value = identity.email;
+    } else { who.textContent = ""; }
+
+    const passed = identity ? Object.keys(getState().passed) : [];
+    for (const cp of CHECKPOINTS) {
+        const card = document.getElementById("card-" + cp.id);
+        card.classList.toggle("done", passed.includes(cp.id));
+        if (passed.includes(cp.id)) {
+            const fb = document.getElementById("fb-" + cp.id);
+            if (!fb.textContent) { fb.textContent = "✅ Passed"; fb.className = "feedback ok"; }
+        }
+    }
+}
+
+document.getElementById("regBtn").addEventListener("click", () => {
+    const name = document.getElementById("regName").value.trim();
+    const email = document.getElementById("regEmail").value.trim().toLowerCase();
+    const fb = document.getElementById("regFb");
+    if (!name || name.toLowerCase() === "your name") {
+        fb.textContent = "❌ Please enter your real name."; fb.className = "feedback bad"; return;
+    }
+    if (!email.includes("@") || !email.split("@").pop().includes(".") || /\s/.test(email) || email.startsWith("yourid@")) {
+        fb.textContent = "❌ Please enter your real USC email."; fb.className = "feedback bad"; return;
+    }
+    const rosterSize = Object.keys(ROSTER_SECTIONS).length;
+    let onRoster = true, section = "";
+    if (rosterSize) {
+        section = ROSTER_SECTIONS[sha256("roster|" + email)] || "";
+        onRoster = !!section;
+        if (!onRoster) {
+            section = "unknown";
+            if (REQUIRE_ROSTER) {
+                fb.textContent = "❌ " + email + " isn't on the class roster. Check the " +
+                    "spelling — or if you just joined the class, ask your TA to add you.";
+                fb.className = "feedback bad";
+                return;
+            }
+        }
+    }
+    identity = { name, email, section };
+    if (!onRoster) {
+        fb.textContent = "⚠️ Registered, but " + email + " isn't on the class roster — check the " +
+            "spelling, or tell your TA if you just joined the class.";
+        fb.className = "feedback bad";
+    } else {
+        fb.textContent = "✅ Registered" + (onRoster && section ? " — Section " + section + ", roster verified" : "")
+            + (email.endsWith("usc.edu") ? "!" : " — heads up: that doesn't look like a USC email.");
+        fb.className = "feedback ok";
+    }
+    let detail = "page=arduino";
+    if (section && !ENTRY.section) detail += ", section=" + section;
+    if (rosterSize) detail += ", roster=" + (onRoster ? "ok" : "NOT-FOUND");
+    reportOnce("register", "ok", detail);
+    refresh();
+});
+
+document.getElementById("switchLink").addEventListener("click", (ev) => {
+    ev.preventDefault();
+    identity = null;
+    document.getElementById("regName").value = "";
+    document.getElementById("regEmail").value = "";
+    document.getElementById("regFb").textContent = "";
+    document.querySelectorAll(".feedback").forEach(f => { f.textContent = ""; });
+    refresh();
+});
+
+build();
+refresh();
+</script>
+</body>
+</html>
