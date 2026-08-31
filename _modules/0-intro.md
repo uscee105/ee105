@@ -16,4 +16,4 @@ Sep 1
 
 Sep 3
 : **Lab**{: .label .label-purple } [iPython Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-bootcamp.zip)
-: **Weekly Quiz**{: .label .label-orange }
+: **Weekly Quiz**{: .label .label-orange } [Sample Quiz]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-quiz-1-sample.pdf)
