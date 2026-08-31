@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>EE 105 · Lab Check-in</title>
+<style>
+  :root { --cardinal:#990000; --gold:#FFC72C; --ink:#333; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         background:#faf9f7; color:var(--ink); min-height:100vh; display:flex; flex-direction:column; }
+  header { background:var(--cardinal); color:#fff; padding:18px 20px; border-bottom:4px solid var(--gold); }
+  header .ey { font-size:12px; letter-spacing:.18em; text-transform:uppercase; color:var(--gold); }
+  header h1 { font-size:22px; font-weight:700; margin-top:2px; }
+  main { flex:1; width:100%; max-width:760px; margin:0 auto; padding:24px 16px 48px; }
+  .card { background:#fff; border:1px solid #e3e0da; border-radius:10px; padding:22px; margin-top:18px;
+          box-shadow:0 2px 10px rgba(0,0,0,.04); }
+  .card h2 { color:var(--cardinal); font-size:19px; margin-bottom:10px; }
+  .muted { color:#6b6b6b; font-size:14px; line-height:1.55; }
+  .status { display:inline-block; font-size:13px; font-weight:600; border-radius:20px; padding:5px 14px; margin-top:6px; }
+  .status.open   { background:#e8f5e9; color:#1b5e20; }
+  .status.closed { background:#f5f5f5; color:#666; }
+  .big { font-size:17px; line-height:1.6; }
+  iframe { width:100%; border:0; min-height:1400px; border-radius:6px; }
+  a.btn { display:inline-block; background:var(--cardinal); color:#fff; text-decoration:none;
+          padding:12px 22px; border-radius:8px; font-weight:600; margin-top:12px; }
+  footer { background:var(--cardinal); color:#f3d9a4; text-align:center; font-size:12px; padding:10px; }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<header>
+  <div class="ey">USC Viterbi · EE 105</div>
+  <h1>Lab Check-in</h1>
+</header>
+<main>
+  <div id="state-open" hidden>
+    <div class="card">
+      <h2>Before we start</h2>
+      <p class="big">Answer the quick questions below — your responses steer today&rsquo;s lab.</p>
+      <span class="status open">Check-in is open</span>
+    </div>
+    <div class="card" id="form-card">
+      <!-- Paste the Google Form "Send > Embed HTML" src URL into FORM_URL below. -->
+      <div id="form-placeholder" class="muted">The check-in form will appear here at the start of lab.</div>
+    </div>
+  </div>
+
+  <div id="state-closed" hidden>
+    <div class="card">
+      <h2>Check-in is closed</h2>
+      <span class="status closed">Outside lab hours</span>
+      <p class="muted" style="margin-top:12px">
+        This page is only active during EE 105 lab sessions:<br>
+        <strong>Tuesdays &amp; Thursdays, 2:00&nbsp;PM &ndash; 5:50&nbsp;PM</strong> (Los&nbsp;Angeles time).<br>
+        <span id="next-open"></span>
+      </p>
+      <p class="muted" style="margin-top:12px">Looking for course material? Head to
+        <a href="https://ee105.org/" style="color:var(--cardinal)">ee105.org</a>.</p>
+    </div>
+  </div>
+</main>
+<footer>University of Southern California · EE 105</footer>
+
+<script>
+/* ======= EDIT THESE ======= */
+var FORM_URL   = "";                 /* Google Form embed URL (Send -> < > -> src="...") */
+var OPEN_DAYS  = [2, 4];             /* 2 = Tuesday, 4 = Thursday */
+var OPEN_MIN   = 13*60 + 45;         /* opens 1:45 PM (15 min early)   */
+var CLOSE_MIN  = 18*60 + 0;          /* closes 6:00 PM                 */
+/* ========================== */
+
+function laNow() {
+  var parts = new Intl.DateTimeFormat("en-US", { timeZone:"America/Los_Angeles",
+    weekday:"short", hour:"numeric", minute:"numeric", hour12:false }).formatToParts(new Date());
+  var get = function(t){ var p = parts.find(function(x){return x.type===t;}); return p ? p.value : ""; };
+  var days = {Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6};
+  return { day: days[get("weekday")], mins: parseInt(get("hour"),10)*60 + parseInt(get("minute"),10) };
+}
+function isOpen() {
+  if (new URLSearchParams(location.search).has("preview")) return true;
+  var now = laNow();
+  return OPEN_DAYS.indexOf(now.day) !== -1 && now.mins >= OPEN_MIN && now.mins < CLOSE_MIN;
+}
+function nextOpening() {
+  var now = laNow();
+  var names = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  for (var add = 0; add <= 7; add++) {
+    var d = (now.day + add) % 7;
+    if (OPEN_DAYS.indexOf(d) !== -1 && (add > 0 || now.mins < OPEN_MIN))
+      return "Check-in next opens " + (add === 0 ? "today" : names[d]) + " at 2:00 PM.";
+  }
+  return "";
+}
+function render() {
+  var open = isOpen();
+  document.getElementById("state-open").hidden = !open;
+  document.getElementById("state-closed").hidden = open;
+  if (open && FORM_URL) {
+    var card = document.getElementById("form-card");
+    document.getElementById("form-placeholder").hidden = true;
+    if (!card.querySelector("iframe")) {
+      var f = document.createElement("iframe");
+      f.src = FORM_URL; f.title = "EE 105 lab check-in form";
+      card.appendChild(f);
+    }
+  }
+  if (!open) document.getElementById("next-open").textContent = nextOpening();
+}
+render();
+setInterval(render, 60*1000);
+</script>
+</body>
+</html>
