@@ -11,7 +11,7 @@ Aug 27
   : **Lab**{: .label .label-purple } [Show demo of the board](#)
 
 Sep 1
-: **Lab**{: .label .label-purple } [Arduino Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-lecture-3-arduino-installation-new.pdf)
+: **Lab**{: .label .label-purple } [Arduino Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-Lab1-arduino.zip)
 : [**Check-in**{: .label .label-purple } Lab 1 — Arduino check-in]({{site.url}}{{site.baseurl}}/checkin/)
 
 Sep 3
