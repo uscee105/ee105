@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EE105 Lab 0.2 - Python Bootcamp</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.7;
+            color: #333;
+            background: #fafafa;
+        }
+        h1 {
+            color: #990000;
+            border-bottom: 4px solid #FFCC00;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #990000;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .os-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .windows { background: #0078d4; color: white; }
+        .mac { background: #555; color: white; }
+        .file-name {
+            background: #f0f0f0;
+            padding: 8px 15px;
+            border-radius: 6px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 15px;
+            display: inline-block;
+            margin: 5px 0;
+        }
+        .ui-item {
+            background: #f0f0f0;
+            padding: 2px 8px;
+            border-radius: 5px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        .step-num {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            background: #990000;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 32px;
+            font-weight: bold;
+            margin-right: 12px;
+        }
+        .step {
+            margin: 20px 0;
+            padding-left: 10px;
+        }
+        .note {
+            background: #e8f4fd;
+            border-left: 4px solid #0078d4;
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            margin: 15px 0;
+        }
+        .success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+        }
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+        }
+        .cmdblock {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: #1e1e1e;
+            border-radius: 8px;
+            padding: 10px 14px;
+            margin: 10px 0;
+        }
+        .cmdblock pre {
+            flex: 1;
+            margin: 0;
+            color: #9cdcfe;
+            font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+            font-size: 14px;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+        .cmdblock button {
+            background: #FFCC00;
+            color: #333;
+            border: none;
+            border-radius: 6px;
+            padding: 6px 14px;
+            font-weight: 600;
+            font-size: 13px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        .cmdblock button:hover { background: #e6b800; }
+        .bigbtn {
+            display: inline-block; background: #990000; color: white; padding: 12px 30px;
+            border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 16px;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 30px 0;
+        }
+        .columns {
+            display: flex;
+            gap: 20px;
+        }
+        .columns > div {
+            flex: 1;
+        }
+        details { margin: 12px 0; }
+        summary { cursor: pointer; }
+        @media (max-width: 600px) {
+            .columns { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🐍 EE105 Lab 0.2 — Python Bootcamp</h1>
+
+    <p>
+        In this course we'll use <strong>Python</strong> to analyze data and (later on) talk to your Arduino boards.
+        You'll write and run Python inside <a href="https://code.visualstudio.com/" target="_blank"><strong>VS Code</strong></a>,
+        using interactive <strong>Jupyter notebooks</strong> — documents that mix runnable code, results, and notes in one place.
+        Python itself is managed by <a href="https://www.anaconda.com/" target="_blank"><strong>Anaconda</strong></a>.
+    </p>
+    <p style="margin-left: 15px;">
+        <strong>Part A — at home:</strong> install two apps (big downloads).<br>
+        <strong>Part B — at home:</strong> create your course Python environment (three commands).<br>
+        <strong>Parts C &amp; D — in the lab:</strong> run the notebooks and submit your work.
+    </p>
+
+    <div class="warning">
+        <strong>⚠️ Do Parts A and B at home, before the first lab.</strong>
+        Together they take about 30 minutes and need ~5&nbsp;GB of free disk space. If you arrive without them,
+        you'll spend the lab session installing software instead of learning Python.
+    </div>
+
+    <!-- ==================== PART A ==================== -->
+    <h2>🏠 Part A — Install Two Apps (At Home)</h2>
+
+    <div class="card">
+        <span class="step-num">1</span><strong>Install Anaconda</strong>
+        <div class="step">
+            Go to <a href="https://www.anaconda.com/download" target="_blank">anaconda.com/download</a>.
+            If it asks for your email, click the small <em>"Skip registration"</em> link. Download the installer for your computer.
+        </div>
+        <div class="note">
+            <strong>🍎 Mac users — check your chip first:</strong> Apple menu <span class="ui-item">&#63743;</span> → <span class="ui-item">About This Mac</span>.
+            If it says <em>Apple M1/M2/M3/M4</em>, download the <strong>Apple Silicon</strong> installer.
+            If it says <em>Intel</em>, download the <strong>Intel</strong> installer.
+        </div>
+        <div class="step">
+            Run the installer and accept all the default options
+            (on Windows, choose <em>"Just Me"</em> if asked). The install takes a few minutes.
+        </div>
+    </div>
+
+    <div class="card">
+        <span class="step-num">2</span><strong>Install VS Code</strong>
+        <div class="step">
+            Go to <a href="https://code.visualstudio.com/" target="_blank">code.visualstudio.com</a> and click <em>Download</em>.
+        </div>
+        <div class="step">
+            <strong>🪟 Windows:</strong> run the installer, keep all defaults.<br>
+            <strong>🍎 Mac:</strong> unzip the download and drag <em>Visual Studio Code</em> into your <em>Applications</em> folder.
+        </div>
+    </div>
+
+    <div class="card">
+        <span class="step-num">3</span><strong>Add two VS Code extensions</strong>
+        <div class="step">
+            Open VS Code and click the <span class="ui-item">Extensions</span> icon in the left sidebar
+            (four squares — or press <strong>Ctrl/Cmd + Shift + X</strong>).
+        </div>
+        <div class="step">
+            Search for <span class="file-name">Python</span> → click <strong>Install</strong> (publisher: Microsoft).
+        </div>
+        <div class="step">
+            Search for <span class="file-name">Jupyter</span> → click <strong>Install</strong> (publisher: Microsoft).
+        </div>
+    </div>
+
+    <!-- ==================== PART B ==================== -->
+    <h2>🧪 Part B — Create Your Course Environment (At Home)</h2>
+
+    <p>
+        A Python <strong>environment</strong> is a named, self-contained copy of Python plus only the packages you choose to install into it.
+        We'll create one called <span class="file-name">ee105</span> and use it for <strong>every lab this semester</strong>.
+    </p>
+
+    <div class="card">
+        <span class="step-num">1</span><strong>Open a terminal</strong>
+        <div class="columns" style="margin-top: 15px;">
+            <div>
+                <span class="os-badge windows">🪟 Windows</span><br>
+                Open the Start menu, type <strong>Anaconda Prompt</strong>, and open it.
+                <em>(Not the regular Command Prompt!)</em>
+            </div>
+            <div>
+                <span class="os-badge mac">🍎 Mac</span><br>
+                Press <strong>Cmd + Space</strong>, type <strong>Terminal</strong>, and press Enter.
+            </div>
+        </div>
+        <div class="note" style="margin-top: 15px;">
+            The line should start with <span class="file-name">(base)</span> — that means Anaconda is working.
+        </div>
+    </div>
+
+    <div class="card">
+        <span class="step-num">2</span><strong>Run these three commands, one at a time</strong>
+        <p>Copy each line, paste it into the terminal, press Enter, and <strong>wait for it to finish</strong> before the next one.</p>
+
+        <p style="margin-bottom: 4px;">Create the environment:</p>
+        <div class="cmdblock"><pre>conda create -n ee105 python=3.12 -y</pre><button onclick="copyCmd(this)">Copy</button></div>
+
+        <p style="margin-bottom: 4px;">Step inside it — the <span class="file-name">(base)</span> at the start of the line becomes <span class="file-name">(ee105)</span>:</p>
+        <div class="cmdblock"><pre>conda activate ee105</pre><button onclick="copyCmd(this)">Copy</button></div>
+
+        <p style="margin-bottom: 4px;">Install the packages this course needs:</p>
+        <div class="cmdblock"><pre>conda install numpy matplotlib sympy ipykernel nbconvert -y</pre><button onclick="copyCmd(this)">Copy</button></div>
+    </div>
+
+    <div class="card">
+        <span class="step-num">3</span><strong>See what you just built <em>(optional)</em></strong>
+        <div class="step">
+            If you'd like to see your new environment visually, open <strong>Anaconda Navigator</strong>
+            (from the Start menu / Applications), click the <span class="ui-item">Environments</span> tab,
+            and select <span class="file-name">ee105</span>. You'll see the packages you just installed.
+        </div>
+        <div class="note">
+            A fresh environment starts <strong>empty</strong> — Python can't use NumPy, Matplotlib, or any other package until
+            you install it. That's why Step 2 exists, and it's how you'll add any new tool we need later in the course.
+        </div>
+    </div>
+
+    <div class="success">
+        <strong>✅ Done at home.</strong> Bring your laptop (charged!) to the first lab — we'll do Parts C and D together.
+    </div>
+
+    <!-- ==================== PART C ==================== -->
+    <h2>📓 Part C — Open the Lab in VS Code <em style="font-size:16px; color:#667;">(in the lab)</em></h2>
+
+    <!-- TA: replace REPLACE-WITH-ZIP-URL below with the link to mod-0-Lab2-python.zip on the course site -->
+    <div class="card" style="text-align: center; background: #e8f4fd;">
+        <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>📦 Lab files</strong></p>
+        <a href="REPLACE-WITH-ZIP-URL" class="bigbtn">Download mod-0-Lab2-python.zip →</a>
+        <p style="margin: 12px 0 0; font-size: 14px; color: #667;">
+            Save it somewhere easy to find (Desktop or Documents), then unzip it.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="step">
+            <span class="step-num">1</span> <strong>Unzip the folder</strong>
+            (Windows: right-click → <em>Extract All</em>; Mac: double-click the zip). Working inside the zip file will not work.
+        </div>
+        <div class="step">
+            <span class="step-num">2</span> Open VS Code → <span class="ui-item">File</span> → <span class="ui-item">Open Folder…</span> →
+            select the unzipped <span class="file-name">mod-0-Lab2-python</span> folder. If asked, click <em>"Yes, I trust the authors"</em>.
+        </div>
+        <div class="step">
+            <span class="step-num">3</span> In the left sidebar, click<br>
+            <span class="file-name">mod-0-lecture-4-ece-105-python-bootcamp.ipynb</span>
+        </div>
+        <div class="step">
+            <span class="step-num">4</span> Click <span class="ui-item">Select Kernel</span> (top-right corner) →
+            <span class="ui-item">Python Environments</span> → choose <span class="file-name">ee105</span>.
+        </div>
+        <div class="step">
+            <span class="step-num">5</span> Run cells from top to bottom: <strong>Shift + Enter</strong> runs a cell and moves to the next
+            (<strong>Ctrl/Cmd + Enter</strong> runs and stays). The first code cell is a <strong>setup check</strong> —
+            if you see green checkmarks, everything works.
+        </div>
+        <div class="step">
+            <span class="step-num">6</span> Right after the setup check, run the <strong>tracker cells</strong>:
+            put your <strong>name and USC email</strong> in the register cell so your work counts.
+            As we go through the lab you'll hit <strong>🚩 Checkpoint</strong> questions — answer them
+            right in the notebook and run the cell to log the task.
+        </div>
+    </div>
+
+    <div class="note">
+        <strong>This is the routine for every lab this semester:</strong> open the lab folder in VS Code →
+        open the notebook → select the <span class="file-name">ee105</span> kernel → run.
+    </div>
+
+    <!-- ==================== PART D / SUBMISSION ==================== -->
+    <h2>✅ Part D — Submit Your Work <em style="font-size:16px; color:#667;">(in the lab)</em></h2>
+
+    <p>You submit <strong>both notebook files</strong> plus your completion code through the Google Form.</p>
+
+    <div class="card" style="text-align: center; background: #e8f4fd;">
+        <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>📝 Lab Completion Form</strong></p>
+        <a href="https://forms.gle/RLMeS3ujynWWKhh57" target="_blank" class="bigbtn">
+            Open Submission Form →
+        </a>
+    </div>
+
+    <div class="card">
+        <div class="step">
+            <span class="step-num">1</span> Work through the tutorial notebook, passing the <strong>🚩 Checkpoints</strong> along the way:
+            <span class="file-name">mod-0-lecture-4-ece-105-python-bootcamp.ipynb</span>
+        </div>
+        <div class="step">
+            <span class="step-num">2</span> Complete <span class="file-name">mod-0-lecture-4-ece-105-Questions-v2.ipynb</span> —
+            each question has a checker cell that grades it on the spot
+        </div>
+        <div class="step">
+            <span class="step-num">3</span> Run the <strong>🏁 Finish line</strong> cell and copy your <strong>completion code</strong>
+            (both notebooks have one — always use the <em>newest</em> code you generated)
+        </div>
+        <div class="step">
+            <span class="step-num">4</span> <strong>Save both notebooks:</strong> <strong>Ctrl/Cmd + S</strong> in each one.
+            Unsaved work is not in the file you upload!
+        </div>
+        <div class="step">
+            <span class="step-num">5</span> Open the form and fill in:
+            <ul style="margin-top: 8px;">
+                <li>Your <strong>Dev. Board Number</strong> (the number on your Arduino kit)</li>
+                <li>Your <strong>USC email</strong> — the same one you registered with in the notebook</li>
+                <li>Your <strong>Completion Code</strong></li>
+                <li><strong>Upload both <span class="file-name">.ipynb</span> files</strong> from your
+                    <span class="file-name">mod-0-Lab2-python</span> folder</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="note">
+        <strong>Two small things on the form:</strong> leave the <em>"ExtendedForms Id"</em> field alone (don't type in it),
+        and you'll need to be signed in to your USC Google account to upload files.
+    </div>
+
+    <div class="warning">
+        <strong>Important:</strong> Submitting this form confirms that you have completed the Python Bootcamp lab.
+    </div>
+
+    <!-- ==================== TROUBLESHOOTING ==================== -->
+    <h2>❓ Troubleshooting</h2>
+
+    <div class="card">
+        <details>
+            <summary><strong>Windows: "conda is not recognized"</strong></summary>
+            <p>You're in the regular Command Prompt or PowerShell. Close it and open <strong>Anaconda Prompt</strong> from the Start menu instead.</p>
+        </details>
+
+        <details>
+            <summary><strong>Mac: "conda: command not found"</strong></summary>
+            <p>Quit Terminal completely (<strong>Cmd + Q</strong>) and reopen it. If it still doesn't work, re-run the Anaconda installer.</p>
+        </details>
+
+        <details>
+            <summary><strong>Windows: installer complains about spaces in the install path</strong></summary>
+            <p>If your Windows username contains a space, the installer may warn about it. Change the install location to <span class="file-name">C:\anaconda3</span> and continue.</p>
+        </details>
+
+        <details>
+            <summary><strong>ee105 doesn't appear in the kernel list</strong></summary>
+            <p>Make sure Part B finished without errors. Then in VS Code press <strong>Ctrl/Cmd + Shift + P</strong>, type <em>"Developer: Reload Window"</em>, press Enter, and click <span class="ui-item">Select Kernel</span> again.</p>
+        </details>
+
+        <details>
+            <summary><strong>Cells fail with "ModuleNotFoundError: No module named 'numpy'"</strong></summary>
+            <p>The notebook is running on the wrong kernel. Click the kernel name in the top-right corner and switch to <span class="file-name">ee105</span>.</p>
+        </details>
+
+        <details>
+            <summary><strong>Which files do I upload, and where are they?</strong></summary>
+            <p>The two files ending in <span class="file-name">.ipynb</span> inside your unzipped
+            <span class="file-name">mod-0-Lab2-python</span> folder — the tutorial notebook and the Questions notebook.
+            In VS Code you can right-click a notebook in the sidebar → <em>Reveal in Finder / File Explorer</em> to find them.
+            Save (<strong>Ctrl/Cmd + S</strong>) before uploading.</p>
+        </details>
+
+        <details>
+            <summary><strong>Checkpoint cells say I'm not registered</strong></summary>
+            <p>Scroll up and run the register cell (with your real name and USC email) near the top of the notebook.
+            If you restarted the kernel, run it again — your already-passed checkpoints are remembered.</p>
+        </details>
+
+        <details>
+            <summary><strong>I don't see the notebook files in VS Code</strong></summary>
+            <p>You probably opened the wrong folder, or you're still inside the zip file. Unzip first, then <span class="ui-item">File</span> → <span class="ui-item">Open Folder…</span> and select the extracted <span class="file-name">mod-0-Lab2-python</span> folder.</p>
+        </details>
+    </div>
+
+    <hr>
+
+    <div class="success">
+        <strong>✅ That's it!</strong><br>
+        If you get stuck and can't solve it yourself, email your TA <a href="mailto:shadmans@usc.edu">here</a> with
+        (1) a screenshot of the exact error and (2) a screenshot of the setup-check cell's output — that's usually enough to diagnose it.
+    </div>
+
+    <script>
+        function copyCmd(btn) {
+            var text = btn.parentElement.querySelector('pre').textContent;
+            function done() {
+                var old = btn.textContent;
+                btn.textContent = 'Copied ✓';
+                setTimeout(function () { btn.textContent = old; }, 1500);
+            }
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(text).then(done).catch(function () { fallback(); });
+            } else {
+                fallback();
+            }
+            function fallback() {
+                var ta = document.createElement('textarea');
+                ta.value = text;
+                document.body.appendChild(ta);
+                ta.select();
+                try { document.execCommand('copy'); done(); } catch (e) {}
+                document.body.removeChild(ta);
+            }
+        }
+    </script>
+
+</body>
+</html>

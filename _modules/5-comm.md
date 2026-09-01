@@ -10,7 +10,7 @@ Nov 12
 Nov 17
 : [Communications Lab Setup]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-Lifi_v2.pdf)
 : [**Lab**{: .label .label-black} LiFi]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi-v2.zip)
-: [**Lab checkoff**{: .label .label-purple } Form](https://forms.gle/PMFFeJ3MEMiGc9uo7)
+: [**Lab task tracker**{: .label .label-purple } Form](https://forms.gle/PMFFeJ3MEMiGc9uo7)
 
 Nov 19
 : [Communications 2]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-22-sensor-fusion.pdf)

@@ -14,7 +14,7 @@ Oct 20
 Oct 22
 : [**Lab**{: .label .label-purple } Oximeter data collection and processing]({{site.url}}{{site.baseurl}}/assets/module-3-sensor/mod-3-oximeter-lab.pdf)
 : [**Lab**{: .label .label-purple } Lab files]({{site.url}}{{site.baseurl}}/assets/module-3-sensor/mod-3-oximeter-lab.zip)
-: [**Lab checkoff**{: .label .label-purple } Form](https://docs.google.com/forms/d/e/1FAIpQLSdJVwg85IJBetfICou6neE-N0po9H496aS-cujr0vhczSuMQg/viewform)
+: [**Lab task tracker**{: .label .label-purple } Form](https://docs.google.com/forms/d/e/1FAIpQLSdJVwg85IJBetfICou6neE-N0po9H496aS-cujr0vhczSuMQg/viewform)
 : **Weekly Quiz**{: .label .label-orange }
 
 Oct 27
