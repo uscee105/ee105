@@ -8,7 +8,7 @@ Sep 8
 
 Sep 10
 : **Lab**{: .label .label-purple } [Arduino Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-lecture-3-arduino-installation.pdf)
-: **Lab**{: .label .label-purple } [iPython Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-bootcamp.zip)
+: **Lab**{: .label .label-purple } [iPython Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-Lab2-python.zip)
 : **Weekly Quiz**{: .label .label-orange }
 
 Sep 15
