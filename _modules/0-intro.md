@@ -15,6 +15,6 @@ Sep 1
 : [**Lab task tracker**{: .label .label-purple } Lab 0.1 — Arduino]({{site.url}}{{site.baseurl}}/checkin/)
 
 Sep 3
-: **Lab**{: .label .label-purple } [iPython Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-Lab2-python.zip)
+: **Lab**{: .label .label-purple } [iPython Review]({{site.url}}{{site.baseurl}}/checkin/lab-0-2-download.html)
 : [**Lab task tracker**{: .label .label-purple } Lab 0.2 — Python setup guide]({{site.url}}{{site.baseurl}}/checkin/lab-0-2-python-setup.html)
 : **Weekly Quiz**{: .label .label-orange } [Sample Quiz]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-quiz-1-sample.pdf)
