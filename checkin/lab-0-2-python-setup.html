@@ -161,7 +161,7 @@
     <p style="margin-left: 15px;">
         <strong>Part A — at home:</strong> install two apps (big downloads).<br>
         <strong>Part B — at home:</strong> create your course Python environment (three commands).<br>
-        <strong>Parts C &amp; D — in the lab:</strong> run the notebooks and submit your work.
+        <strong>Parts C &amp; D — in the lab:</strong> run the notebook and submit your work.
     </p>
 
     <div class="warning">
@@ -290,7 +290,10 @@
         </div>
         <div class="step">
             <span class="step-num">2</span> Open VS Code → <span class="ui-item">File</span> → <span class="ui-item">Open Folder…</span> →
-            select the unzipped <span class="file-name">mod-0-Lab2-python</span> folder. If asked, click <em>"Yes, I trust the authors"</em>.
+            select the unzipped <span class="file-name">mod-0-Lab2-python</span> folder — the one with the notebook
+            <em>directly inside it</em>. (Windows sometimes puts a <span class="file-name">mod-0-Lab2-python</span> folder
+            inside another folder of the same name; open the <strong>inner</strong> one.)
+            If asked, click <em>"Yes, I trust the authors"</em>.
         </div>
         <div class="step">
             <span class="step-num">3</span> In the left sidebar, click<br>
@@ -306,11 +309,17 @@
             if you see green checkmarks, everything works.
         </div>
         <div class="step">
-            <span class="step-num">6</span> Right after the setup check, run the <strong>tracker cells</strong>:
-            put your <strong>name and USC email</strong> in the register cell so your work counts.
+            <span class="step-num">6</span> Right after the setup check, run the <strong>check-in cell</strong>:
+            put your <strong>name and USC email</strong> in it so your work counts.
             As we go through the lab you'll hit <strong>🚩 Checkpoint</strong> questions — answer them
-            right in the notebook and run the cell to log the task.
+            right in the notebook and run the cell. It tells you whether your answer is correct — if not,
+            think it over and try again until it is. Points are tallied by the TA after the lab.
         </div>
+    </div>
+
+    <div class="note">
+        <strong>Autocomplete is switched off inside this folder</strong> — on purpose, so you build the habit of
+        typing Python yourself. Only this folder is affected; your other projects are untouched.
     </div>
 
     <div class="note">
@@ -321,47 +330,51 @@
     <!-- ==================== PART D / SUBMISSION ==================== -->
     <h2>✅ Part D — Submit Your Work <em style="font-size:16px; color:#667;">(in the lab)</em></h2>
 
-    <p>You submit <strong>both notebook files</strong> plus your completion code through the Google Form.</p>
+    <p>You submit <strong>one file</strong> — your completed notebook — plus your completion code through the Google Form.</p>
 
     <div class="card" style="text-align: center; background: #e8f4fd;">
         <p style="margin: 0 0 15px 0; font-size: 18px;"><strong>📝 Lab Completion Form</strong></p>
-        <a href="https://forms.gle/RLMeS3ujynWWKhh57" target="_blank" class="bigbtn">
+        <a href="https://forms.gle/YvbXRsJ1ZTRJb2mX8" target="_blank" class="bigbtn">
             Open Submission Form →
         </a>
     </div>
 
     <div class="card">
         <div class="step">
-            <span class="step-num">1</span> Work through the tutorial notebook, passing the <strong>🚩 Checkpoints</strong> along the way:
+            <span class="step-num">1</span> Work through the notebook from top to bottom, answering all five
+            <strong>🚩 Checkpoints</strong> along the way:
             <span class="file-name">mod-0-lecture-4-ece-105-python-bootcamp.ipynb</span>
+            <em>(this is the only notebook — there is nothing else to complete)</em>
         </div>
         <div class="step">
-            <span class="step-num">2</span> Complete <span class="file-name">mod-0-lecture-4-ece-105-Questions-v2.ipynb</span> —
-            each question has a checker cell that grades it on the spot
+            <span class="step-num">2</span> Finish <strong>🚩 Checkpoint 5</strong> at the end of the NumPy section — the coding questions.
+            Their checker cells tell you whether each answer passes — fix and re-run until it does
         </div>
         <div class="step">
-            <span class="step-num">3</span> Run the <strong>🏁 Finish line</strong> cell and copy your <strong>completion code</strong>
-            (both notebooks have one — always use the <em>newest</em> code you generated)
+            <span class="step-num">3</span> Run the <strong>🏁 Finish line</strong> cell at the very bottom and copy your
+            <strong>completion code</strong> (always use the <em>newest</em> code you generated)
         </div>
         <div class="step">
-            <span class="step-num">4</span> <strong>Save both notebooks:</strong> <strong>Ctrl/Cmd + S</strong> in each one.
+            <span class="step-num">4</span> <strong>Save the notebook:</strong> <strong>Ctrl/Cmd + S</strong>.
             Unsaved work is not in the file you upload!
         </div>
         <div class="step">
             <span class="step-num">5</span> Open the form and fill in:
             <ul style="margin-top: 8px;">
+                <li>Your <strong>Section</strong> — pick the one you're enrolled in (<strong>30882</strong> or <strong>30884</strong>)</li>
                 <li>Your <strong>Dev. Board Number</strong> (the number on your Arduino kit)</li>
                 <li>Your <strong>USC email</strong> — the same one you registered with in the notebook</li>
                 <li>Your <strong>Completion Code</strong></li>
-                <li><strong>Upload both <span class="file-name">.ipynb</span> files</strong> from your
-                    <span class="file-name">mod-0-Lab2-python</span> folder</li>
+                <li><strong>Upload your <span class="file-name">.ipynb</span> notebook</strong> from your
+                    <span class="file-name">mod-0-Lab2-python</span> folder — that one file is the whole submission</li>
             </ul>
         </div>
     </div>
 
     <div class="note">
-        <strong>Two small things on the form:</strong> leave the <em>"ExtendedForms Id"</em> field alone (don't type in it),
-        and you'll need to be signed in to your USC Google account to upload files.
+        <strong>There is no answer key.</strong> Everything you need to work the Checkpoints out is covered in
+        the lecture and in the notebook itself — reread the section just above each question, try something,
+        and use the notebook's feedback to close in on the right answer. Ask your TA if you're stuck.
     </div>
 
     <div class="warning">
@@ -398,10 +411,10 @@
         </details>
 
         <details>
-            <summary><strong>Which files do I upload, and where are they?</strong></summary>
-            <p>The two files ending in <span class="file-name">.ipynb</span> inside your unzipped
-            <span class="file-name">mod-0-Lab2-python</span> folder — the tutorial notebook and the Questions notebook.
-            In VS Code you can right-click a notebook in the sidebar → <em>Reveal in Finder / File Explorer</em> to find them.
+            <summary><strong>Which file do I upload, and where is it?</strong></summary>
+            <p>Just one: the file ending in <span class="file-name">.ipynb</span> inside your unzipped
+            <span class="file-name">mod-0-Lab2-python</span> folder — the notebook you worked in.
+            In VS Code you can right-click it in the sidebar → <em>Reveal in Finder / File Explorer</em> to find it.
             Save (<strong>Ctrl/Cmd + S</strong>) before uploading.</p>
         </details>
 
