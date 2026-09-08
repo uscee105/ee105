@@ -3,13 +3,12 @@ title: Module 1 - Circuits
 ---
 
 Sep 8
-: [Circuits 1]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-5-circuit-analysis.pdf)
+: [Circuits 1]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-5-circuit-analysis-ann.pdf)
     
 
 Sep 10
 : **Lab**{: .label .label-purple } [Arduino Review]({{site.url}}{{site.baseurl}}/assets/module-0-intro/mod-0-lecture-3-arduino-installation.pdf)
 : **Lab**{: .label .label-purple } [iPython Review]({{site.url}}{{site.baseurl}}/checkin/lab-0-2-download.html)
-: **Weekly Quiz**{: .label .label-orange }
 
 Sep 15
 : [Circuits 2]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-6-circuit-analysis-2.pdf)
