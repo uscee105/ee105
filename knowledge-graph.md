@@ -7,7 +7,7 @@ description: An interactive concept map of EE 105, linking every topic in the co
 # Knowledge Graph
 {:.no_toc}
 
-An interactive map of **185 concepts** and **278 relationships** across EE 105 — how
+An interactive map of **193 concepts** and **297 relationships** across EE 105 — how
 every idea in the course connects to the ones before and after it. Use it to review
 for exams, to see why a topic is introduced when it is, or to trace a concept back to
 its prerequisites.
