@@ -22,5 +22,4 @@ Sep 17
 
 Sep 22
 : [**Tutorial**{: .label .label-black} Circuit problems]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-8-circuit-problems.pdf)
-  : [**Lab**{: .label .label-purple } Circuit analysis with python]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-8-circuit-analysis-2-calc-lab.pdf)
-  : [**Lab task tracker**{: .label .label-purple } Form](https://forms.gle/2ZRaDf5AaRHscEZe9)
+: [**Lab**{: .label .label-purple } Circuit analysis with python]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-Lab2-python.zip)
