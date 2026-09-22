@@ -21,5 +21,9 @@ Sep 17
 : **Weekly Quiz**{: .label .label-orange }
 
 Sep 22
-: [**Tutorial**{: .label .label-black} Circuit problems]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-8-circuit-problems.pdf)
-: [**Lab**{: .label .label-purple } Circuit analysis with python]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-Lab2-python.zip)
+: [**Tutorial**{: .label .label-black} Circuit Problems 1]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-8-practice-problems-1.pdf)
+: [**Lab**{: .label .label-purple } Circuit analysis with python]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-Lab2-python.zip) · [**Notebook upload**](https://forms.gle/j8n3tNwvcCr67s5v6)
+
+Sep 24
+: [**Tutorial**{: .label .label-black} Circuit Problems 2]({{site.url}}{{site.baseurl}}/assets/module-1-circuit/mod-1-lecture-8-circuit-problems.pdf)
+: **Weekly Quiz**{: .label .label-orange }

@@ -2,14 +2,11 @@
 title: Module 2 - Device
 ---
 
-Sep 24
-: [Device 1]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-9-devices-1.pdf)
-: **Weekly Quiz**{: .label .label-orange }
-
 Sep 29
-: [Device 2]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-10-devices-2.pdf)
+: [Device 1]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-9-devices-1.pdf)
 
 Oct 1
+: [Device 2]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-10-devices-2.pdf)
 : [**Lab**{: .label .label-purple } Diode and Transistor]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-11-diode-transistor.zip)
 : [**Lab task tracker**{: .label .label-purple } Form](https://forms.gle/8b3eyV8QMhNAiMys8)
 : **Weekly Quiz**{: .label .label-orange }
