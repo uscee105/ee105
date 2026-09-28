@@ -7,14 +7,16 @@ Sep 29
 
 Oct 1
 : [Device 2]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-10-devices-2.pdf)
-: [**Lab**{: .label .label-purple } Diode and Transistor]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-11-diode-transistor.zip)
-: [**Lab task tracker**{: .label .label-purple } Form](https://forms.gle/8b3eyV8QMhNAiMys8)
+: [Device 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-12-devices-opto.pdf)
 : **Weekly Quiz**{: .label .label-orange }
 
 Oct 6
-: [Device 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-12-devices-opto.pdf)
+: [**Lab**{: .label .label-purple } Diode and Transistor]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-11-diode-transistor.zip)
+: [**Lab task tracker**{: .label .label-purple } Form](https://forms.gle/8b3eyV8QMhNAiMys8)
+
+Oct 13
 : **Practice MIDTERM**{: .label .label-green}[Practice MIDTERM]({{site.url}}{{site.baseurl}}/assets/module-2-device/fall-25-practice-midterm.pdf)
 : **Practice MIDTERM SOLUTION**{: .label .label-green}[Practice MIDTERM solution]({{site.url}}{{site.baseurl}}/assets/module-2-device/fall-25-practice-midterm-solution.pdf)
 
-Oct 13
+Oct 15
 : **MIDTERM**{: .label .label-blue }
