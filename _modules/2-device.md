@@ -14,7 +14,7 @@ Oct 6
 
 Oct 13
 : [**Lab**{: .label .label-purple } Diode and Transistor]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-11-diode-transistor.zip)
-: [**Lab task tracker**{: .label .label-purple } Form](https://forms.gle/8b3eyV8QMhNAiMys8)
+: [**Lab task tracker**{: .label .label-purple } Lab 2.1 Diode and Transistor IV Characteristics]({{site.url}}{{site.baseurl}}/checkin/lab-2-1-diode-transistor.html)
 
 Oct 15
 : **Practice MIDTERM**{: .label .label-green}[Practice MIDTERM]({{site.url}}{{site.baseurl}}/assets/module-2-device/fall-25-practice-midterm.pdf)
