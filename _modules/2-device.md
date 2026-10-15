@@ -17,8 +17,6 @@ Oct 13
 : [**Lab task tracker**{: .label .label-purple } Lab 2.1 Diode and Transistor IV Characteristics]({{site.url}}{{site.baseurl}}/checkin/lab-2-1-diode-transistor.html)
 
 Oct 15
-: **Practice MIDTERM**{: .label .label-green}[Practice MIDTERM]({{site.url}}{{site.baseurl}}/assets/module-2-device/fall-25-practice-midterm.pdf)
-: **Practice MIDTERM SOLUTION**{: .label .label-green}[Practice MIDTERM solution]({{site.url}}{{site.baseurl}}/assets/module-2-device/fall-25-practice-midterm-solution.pdf)
 : **Practice MIDTERM**{: .label .label-green}[Practice Midterm A]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-practice-midterm-a.pdf) &nbsp;&#124;&nbsp; [Practice Midterm B]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-practice-midterm-b.pdf)
 : **Practice MIDTERM SOLUTION**{: .label .label-green}[Practice Midterm A Solution]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-practice-midterm-a-solution.pdf) &nbsp;&#124;&nbsp; [Practice Midterm B Solution]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-practice-midterm-b-solution.pdf)
 
