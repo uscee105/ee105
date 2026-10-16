@@ -13,7 +13,7 @@ Oct 6
 : [Device 3]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-12-devices-opto.pdf)
 
 Oct 13
-: [**Lab**{: .label .label-purple } Diode and Transistor]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-11-diode-transistor.zip)
+: [**Lab**{: .label .label-purple } Diode and Transistor]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-11-diode-transistor.zip) [**Diode and MOSFET I-V slides**]({{site.url}}{{site.baseurl}}/assets/module-2-device/mod-2-lecture-11-diode-nmos-iv.pdf)
 : [**Lab task tracker**{: .label .label-purple } Lab 2.1 Diode and Transistor IV Characteristics]({{site.url}}{{site.baseurl}}/checkin/lab-2-1-diode-transistor.html)
 
 Oct 15
