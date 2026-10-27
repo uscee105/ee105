@@ -9,6 +9,8 @@ Nov 5
 : [Neural network 2]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lab-MNIST.pdf)
   : [**Lab**{: .label .label-purple } Image/text classification]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-nn-labs.zip)
   : [**Lab task tracker**{: .label .label-purple } Form](https://forms.gle/xttKRoyMdtau1WWR6)
+: **Final project teaming**{: .label .label-black} Groups of 5 students
+: **Final project plan due**{: .label .label-red }
 : **Weekly Quiz**{: .label .label-orange }
 
 Nov 10
