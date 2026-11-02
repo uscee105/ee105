@@ -3,7 +3,7 @@ title: Module 4 - Machine Learning
 ---
 
 Nov 3
-: [Neural network 1]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-17-18-hardware-nn.pdf)
+: [Neural network 1]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn-2026-11-02.pdf)
 
 Nov 5
 : [Neural network 2]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lab-MNIST.pdf)
@@ -14,7 +14,7 @@ Nov 5
 : **Weekly Quiz**{: .label .label-orange }
 
 Nov 10
-: [Neural network 3]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-17-18-hardware-nn.pdf)
+: [Neural network 3]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn-2026-11-02.pdf)
 
 Nov 12
 : [Neural network 4]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn-short.pdf)
