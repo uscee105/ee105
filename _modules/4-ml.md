@@ -6,9 +6,9 @@ Nov 3
 : [Neural network 1]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn-2026-11-02.pdf)
 
 Nov 5
-: [Neural network 2]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lab-MNIST.pdf)
+: [Neural Network Lab 1]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lab-MNIST-2026.pdf)
   : [**Lab**{: .label .label-purple } Image/text classification]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-nn-labs.zip)
-  : [**Lab task tracker**{: .label .label-purple } Lab 4.1 Neural Network Training on MNIST]({{site.url}}{{site.baseurl}}/checkin/lab-4-1-nn-mnist.html)
+  : [**Lab task tracker**{: .label .label-purple } Lab 4.1]({{site.url}}{{site.baseurl}}/checkin/lab-4-1-nn-mnist.html)
 : **Final project teaming**{: .label .label-black} Groups of 5 students
 : **Final project plan due**{: .label .label-red }
 : **Weekly Quiz**{: .label .label-orange }

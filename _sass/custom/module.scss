@@ -92,6 +92,13 @@
         dd {
           margin: 0;
         }
+
+        // A title with two nested items (e.g. lecture, lab, task tracker): three equal columns
+        dt:nth-last-child(3),
+        dt:nth-last-child(3) ~ dd {
+          flex: 1 1 0;
+          min-width: 0;
+        }
       }
     }
   }
