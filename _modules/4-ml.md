@@ -18,7 +18,7 @@ Nov 10
 
 Nov 12
 : [Neural network 4]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn-short.pdf)
-: [Lab setup]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-4-MNIST-EVAL.pdf)
-: [**Lab**{: .label .label-purple } Image classification with Arduino]({{site.url}}{{site.baseurl}}/assets/module-4-ml/camera_python_nn_eval.zip)
-: [**Lab task tracker**{: .label .label-purple } Form](https://forms.gle/vehxqRSMdr1HyeoU6)
+: [Lab setup]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lab4.2-camera-classifier-guide-2026.pdf)
+: [**Lab**{: .label .label-purple } Image classification with Arduino]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lab4.2-camera-classifier.zip)
+: [**Lab task tracker**{: .label .label-purple } Lab 4.2]({{site.url}}{{site.baseurl}}/checkin/lab-4-2-camera-classifier.html)
 : **Weekly Quiz**{: .label .label-orange }
