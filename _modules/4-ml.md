@@ -20,5 +20,5 @@ Nov 12
 : [Neural network 4]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lecture-19-20-nn-short.pdf)
 : [Lab setup]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lab4.2-camera-classifier-guide-2026.pdf)
 : [**Lab**{: .label .label-purple } Image classification with Arduino]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lab4.2-camera-classifier.zip)
-: [**Lab task tracker**{: .label .label-purple } Lab 4.2]({{site.url}}{{site.baseurl}}/checkin/lab-4-2-camera-classifier.html)
+: [**Lab submission**{: .label .label-purple } Upload lab4.2_submission.json on the course portal]({{site.url}}{{site.baseurl}}/portal/)
 : **Weekly Quiz**{: .label .label-orange }
