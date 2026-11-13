@@ -21,4 +21,10 @@ Nov 12
 : [Lab setup]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lab4.2-camera-classifier-guide-2026.pdf)
 : [**Lab**{: .label .label-purple } Image classification with Arduino]({{site.url}}{{site.baseurl}}/assets/module-4-ml/mod-4-lab4.2-camera-classifier.zip)
 : [**Lab submission**{: .label .label-purple } Upload lab4.2_submission.json on the course portal]({{site.url}}{{site.baseurl}}/portal/)
+: **Lab fix**{: .label .label-yellow } If the kernel dies or you see `OMP: Error #15` (often on a Mac), copy these two lines into a new cell at the very top of the notebook, run it, then run the notebook again from the first cell:
+
+  ```python
+  import os
+  os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+  ```
 : **Weekly Quiz**{: .label .label-orange }
