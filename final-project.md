@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Final project
+nav_order: 6
 description: >-
     Final project spec
 ---

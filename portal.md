@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Course portal
+nav_order: 3
 description: Submit your EE 105 lab results.
 permalink: /portal/
 ---

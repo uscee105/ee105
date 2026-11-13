@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Knowledge Graph
+nav_order: 7
 description: An interactive concept map of EE 105, linking every topic in the course.
 ---
 

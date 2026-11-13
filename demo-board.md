@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Demo Board
+nav_order: 5
 description: >-
     Description of the hardware demo board
 ---
