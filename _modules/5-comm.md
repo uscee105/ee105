@@ -8,8 +8,19 @@ Nov 17
 
 Nov 19
 : [Communications Lab Setup]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-Lifi_v2.pdf)
-: [**Lab**{: .label .label-black} LiFi]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lifi-v2.zip)
-: [**Lab task tracker**{: .label .label-purple } Form](https://forms.gle/PMFFeJ3MEMiGc9uo7)
+: [**Lab**{: .label .label-black} LiFi lab kit]({{site.url}}{{site.baseurl}}/assets/module-5-comm/ee105-labs.zip)
+: **Mac**{: .label .label-yellow } Do not download the lab kit with your browser: macOS then blocks the setup file. Open **Terminal** (Command+Space, type `Terminal`, press Return), paste this line and press Return. It downloads the kit into your home folder and starts the setup:
+
+  ```bash
+  cd ~ && curl -L -o ee105-labs.zip https://ee105.org/assets/module-5-comm/ee105-labs.zip && unzip -n -q ee105-labs.zip && bash ee105-labs/setup-mac.command
+  ```
+
+  The first run takes 15 to 30 minutes and about 5 GB, then JupyterLab opens in your browser; open `lab5.1-lifi`. Keep the Terminal window open while you work. To start the lab again later, paste:
+
+  ```bash
+  bash ~/ee105-labs/setup-mac.command
+  ```
+: **Windows**{: .label .label-yellow } Download the lab kit above, unzip it, and double-click `setup-windows.bat` in the `ee105-labs` folder. If Windows says "Windows protected your PC", click **More info**, then **Run anyway**.
 : **Weekly Quiz**{: .label .label-orange }
 
 Nov 24
