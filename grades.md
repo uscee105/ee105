@@ -19,8 +19,10 @@ This page shows the class as a whole. Your own scores are on [Gradescope](https:
 
 ## Overall so far
 
-Each student's overall score is the plain average of their seven percentage scores (six quizzes and the
-midterm, weighted equally), with a missed paper counted as 0. The roster has <span id="gr-roster">—</span>
+Each student's overall score combines the two parts with their course weights: the **average of the six
+weekly quizzes counts 20 %** and the **midterm counts 30 %**. The result is shown as a percentage of
+those 50 points, so 100 % means full marks on everything so far. A missed paper counts as 0.
+The roster has <span id="gr-roster">—</span>
 students; <span id="gr-noscores">—</span> have no scores at all and are left out.
 {: .fs-3 }
 
@@ -46,7 +48,7 @@ All values are percentages except Taken, the number of students with a score.
 
 <div class="gr-scroll">
 <table>
-<thead><tr><th>Assessment</th><th>Taken</th><th>Mean</th><th>Median</th><th>Std dev</th><th>Min</th><th>Max</th></tr></thead>
+<thead><tr><th>Assessment</th><th>Taken</th><th>Mean</th><th>Median</th><th>Std dev</th><th>Max</th></tr></thead>
 <tbody id="gr-rows"></tbody>
 </table>
 </div>

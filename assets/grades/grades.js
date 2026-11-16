@@ -88,7 +88,7 @@
   fill('gr-easiest', G.easiest.name); fill('gr-easiest-mean', f1(G.easiest.mean));
   fill('gr-roster', o.roster); fill('gr-noscores', o.noScores);
   var tiles = document.getElementById('gr-tiles');
-  [['Students', o.students], ['Mean (%)', f1(o.mean)], ['Median (%)', f1(o.median)], ['Std deviation', f1(o.sd)], ['Lowest (%)', f1(o.min)], ['Highest (%)', f1(o.max)]]
+  [['Students', o.students], ['Mean (%)', f1(o.mean)], ['Median (%)', f1(o.median)], ['Std deviation', f1(o.sd)], ['Highest (%)', f1(o.max)]]
     .forEach(function (t) { var d = html('div', '', tiles); html('div', 'gr-tile-label', d, t[0]); html('div', 'gr-tile-value', d, t[1]); });
   curve(document.getElementById('gr-overall'), o);
 
@@ -102,6 +102,6 @@
     });
     histogram(html('div', 'gr-chart', card), p);
     var tr = html('tr', '', body);
-    [p.name, p.n, f1(p.mean), f1(p.median), f1(p.sd), f1(p.min), f1(p.max)].forEach(function (v) { html('td', '', tr, v); });
+    [p.name, p.n, f1(p.mean), f1(p.median), f1(p.sd), f1(p.max)].forEach(function (v) { html('td', '', tr, v); });
   });
 })();
