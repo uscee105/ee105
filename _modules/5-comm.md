@@ -4,7 +4,7 @@ title: Module 5 - Communications
 
 
 Nov 17
-: [Communications 1]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-21-opt-comm.pdf)
+: [Communications 1]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-21-opt-comm-2026.pdf)
 
 Nov 19
 : [Communications Lab Setup]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-Lifi_v2.pdf)
