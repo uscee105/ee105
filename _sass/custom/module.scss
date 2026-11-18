@@ -66,6 +66,19 @@
 
     >dd {
       @extend %module-item;
+      // Let the column shrink below its content width, so a long code line
+      // scrolls inside its own box and does not push the card wider.
+      min-width: 0;
+
+      div.highlighter-rouge,
+      pre {
+        max-width: 100%;
+        overflow-x: auto;
+      }
+
+      div.highlighter-rouge {
+        margin: $sp-2 0;
+      }
 
       +dd {
         padding-top: 0;
