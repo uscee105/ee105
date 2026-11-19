@@ -9,6 +9,7 @@ Nov 17
 Nov 19
 : [Communications Lab Setup]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-Lifi_v2.pdf)
 : [**Lab**{: .label .label-black} LiFi lab kit]({{site.url}}{{site.baseurl}}/assets/module-5-comm/ee105-labs.zip)
+{%- comment %} Setup instructions for Mac and Windows, hidden for now
 : **Mac**{: .label .label-yellow } Do not download the kit with your browser. Open **Terminal**, paste these lines, and press Return:
 
   ```bash
@@ -24,6 +25,7 @@ Nov 19
   bash ~/ee105-labs/setup-mac.command
   ```
 : **Windows**{: .label .label-yellow } Download the lab kit, unzip it, and double-click `setup-windows.bat`. If Windows blocks it, click **More info**, then **Run anyway**.
+{% endcomment %}
 : **Weekly Quiz**{: .label .label-orange }
 
 Nov 24
