@@ -18,7 +18,7 @@ Nov 19
     && bash ee105-labs/setup-mac.command
   ```
 
-  The first run takes 15 to 30 minutes. JupyterLab then opens in your browser. Open `lab5.1-lifi`. Keep the Terminal window open. To start the lab again later:
+  The first run takes 5 to 15 minutes and about 2.5 GB. JupyterLab then opens in your browser. Open `lab5.1-lifi`. Keep the Terminal window open. To start the lab again later:
 
   ```bash
   bash ~/ee105-labs/setup-mac.command
