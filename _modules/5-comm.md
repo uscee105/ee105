@@ -7,7 +7,7 @@ Nov 17
 : [Communications 1]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lecture-21-opt-comm-2026.pdf)
 
 Nov 19
-: [Communications Lab Setup]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-lab5.1-lifi-guide-2026.pdf)
+: [Communications Lab Setup]({{site.url}}{{site.baseurl}}/assets/module-5-comm/mod-5-Lifi_v2.pdf)
 : [**Lab**{: .label .label-black} LiFi lab kit]({{site.url}}{{site.baseurl}}/assets/module-5-comm/ee105-labs.zip)
 : **Mac**{: .label .label-yellow } Do not download the kit with your browser. Open **Terminal**, paste these lines, and press Return:
 
