@@ -33,7 +33,6 @@ Dec 3
 : **Team 19**{: .label .label-blue } Computer Vision: Rock-Paper-Scissors
 : <hr style="margin: 0.5rem 0;">
 : [**Project Poll**{: .label .label-purple } Form]()
-: **Weekly Quiz**{: .label .label-orange }
 
 Dec 10
 : **Final, Thursday, 2:00 - 4:00 PM**{: .label .label-blue }
