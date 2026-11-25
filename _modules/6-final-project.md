@@ -24,6 +24,7 @@ Dec 3
 : **Team 5**{: .label .label-blue } HeartBeat Synth
 : **Team 7**{: .label .label-blue } Plant Watering and Monitoring System
 : **Team 9**{: .label .label-blue } Steering-Wheel Controller for Unity Game
+: **Team 20**{: .label .label-blue } Piano Note Player
 : <hr style="margin: 0.5rem 0;">
 : **4:00 – 6:00 PM section**
 : **Team 13**{: .label .label-blue } Camera-Controlled Nerf Turret (UCLA-shirt detection)
